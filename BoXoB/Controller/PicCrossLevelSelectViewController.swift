@@ -56,11 +56,11 @@ class PicCrossLevelSelectViewController: BaseSwiftViewController,UICollectionVie
             
             if indexPath.item == noOfLevelSolved{
                 cell.imgView?.image = UIImage(named: "currentlevelCellBg")
-                cell.nameLbl?.textColor = UIColor.init(red: 83.0/255.0, green: 54.0/255.0, blue: 150.0/255.0, alpha: 1)
+                //cell.nameLbl?.textColor = UIColor.init(red: 83.0/255.0, green: 54.0/255.0, blue: 150.0/255.0, alpha: 1)
                 
             }
             else{
-                cell.nameLbl?.textColor = UIColor.white
+                //cell.nameLbl?.textColor = UIColor.white
                 cell.imgView?.image = UIImage(named: "upcominglevelCellBg")
             }
             return cell

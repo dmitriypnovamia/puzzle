@@ -1,0 +1,260 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So23FBSDKLoginConfigurationC", ""]
+- ["So23FBSDKLoginConfigurationC", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Array"
+- "LoginConfiguration"
+- "LoginTracking"
+- "Permission"
+- "Set"
+- "String"
+- "UUID"
+depends-member:
+- !private ["s7CVarArgP", "UUID"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["Sl", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "UUID"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", "UUID"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "uuidString"]
+- ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "uuidString"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "uuidString"]
+- !private ["SQ", "UUID"]
+- !private ["SQ", ""]
+- !private ["SQ", "enabled"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "name"]
+- !private ["SQ", "uuidString"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "name"]
+- !private ["s26ExpressibleByStringLiteralP", "name"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "name"]
+- !private ["SH", "UUID"]
+- !private ["SH", ""]
+- !private ["SH", "enabled"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "name"]
+- !private ["SH", "uuidString"]
+- ["So23FBSDKLoginConfigurationC", "LoginTracking"]
+- ["So23FBSDKLoginConfigurationC", "Permission"]
+- ["So23FBSDKLoginConfigurationC", "Set"]
+- ["So23FBSDKLoginConfigurationC", "String"]
+- !private ["So23FBSDKLoginConfigurationC", "UUID"]
+- ["So23FBSDKLoginConfigurationC", ""]
+- ["So23FBSDKLoginConfigurationC", "init"]
+- !private ["So18FBSDKLoginTrackingV", "enabled"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", "LoginTracking"]
+- ["So8NSObjectC", "Permission"]
+- ["So8NSObjectC", "Set"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UUID"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectP", "LoginTracking"]
+- ["So8NSObjectP", "Permission"]
+- ["So8NSObjectP", "Set"]
+- ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "UUID"]
+- ["So8NSObjectP", "init"]
+- !private ["12FBSDKCoreKit10PermissionO", "name"]
+- !private ["SY", "enabled"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- !private ["ST", ""]
+- !private ["ST", "map"]
+- !private ["Sh", "map"]
+- !private ["s10SetAlgebraP", "map"]
+- !private ["10Foundation4UUIDV", "init"]
+- !private ["10Foundation4UUIDV", "uuidString"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UUID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "uuidString"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "Se"
+- !private "SE"
+- !private "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- "So23FBSDKLoginConfigurationC"
+- !private "So18FBSDKLoginTrackingV"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "12FBSDKCoreKit10PermissionO"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- !private "10Foundation4UUIDV"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/dmitriypirko/Documents/puzzle(git)/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.swiftmodule/arm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Accelerate.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/WebKit.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKURL.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKURL.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit-umbrella.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Public/FBSDKLoginKit/FBSDKLoginKit-umbrella.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Public/FBSDKLoginKit/FBSDKReferralCode.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKProfile.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfile.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/Sources/FBSDKCoreKit_Basics/include/FBSDKUserDataStore.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKDeviceViewControllerBase.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKApplicationDelegate.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/Sources/FBSDKCoreKit_Basics/include/FBSDKJSONValue.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/Resolver/FBSDKAppLinkResolving.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkResolving.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/Sources/FBSDKCoreKit_Basics/include/FBSDKCrashObserving.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKCopying.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKMutableCopying.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMutableCopying.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLink.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLink.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/Sources/FBSDKCoreKit_Basics/include/FBSDKURLSessionTask.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKAuthenticationToken.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAuthenticationToken.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKAccessToken.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/Sources/FBSDKCoreKit_Basics/include/FBSDKURLSession.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkNavigation.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkNavigation.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Public/FBSDKLoginKit/FBSDKLoginConfiguration.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphRequestConnection.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKGraphRequestConnection.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKButton.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKButton.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKDeviceButton.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Public/FBSDKLoginKit/FBSDKLoginButton.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Public/FBSDKLoginKit/FBSDKDeviceLoginCodeInfo.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/Resolver/FBSDKAppLinkResolverRequestBuilder.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkResolverRequestBuilder.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Public/FBSDKLoginKit/FBSDKReferralManager.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Public/FBSDKLoginKit/FBSDKLoginManager.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Public/FBSDKLoginKit/FBSDKDeviceLoginManager.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKTestUsersManager.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKTestUsersManager.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/Sources/FBSDKCoreKit_Basics/include/FBSDKCrashHandler.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkReturnToRefererController.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkReturnToRefererController.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/Resolver/FBSDKAppLinkResolver.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkResolver.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKWebViewAppLinkResolver.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKWebViewAppLinkResolver.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/Sources/FBSDKCoreKit_Basics/include/FBSDKLibAnalyzer.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/Sources/FBSDKCoreKit_Basics/include/FBSDKCoreKit_Basics.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKSettings.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKSettings.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKConstants.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKConstants.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Public/FBSDKLoginKit/FBSDKLoginConstants.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/FBSDKAppEvents.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppEvents.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkTarget.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkTarget.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/build/Debug-iphoneos/FBSDKCoreKit/Swift Compatibility Header/FBSDKCoreKit-Swift.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKCoreKit.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Public/FBSDKLoginKit/FBSDKLoginKit.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Public/FBSDKLoginKit/FBSDKLoginManagerLoginResult.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Public/FBSDKLoginKit/FBSDKReferralManagerResult.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Public/FBSDKLoginKit/FBSDKDeviceLoginManagerResult.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphRequestDataAttachment.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKMeasurementEvent.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMeasurementEvent.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Public/FBSDKLoginKit/FBSDKCoreKitImport.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/Sources/FBSDKCoreKit_Basics/include/FBSDKSafeCast.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphRequest.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKGraphRequest.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKProfilePictureView.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfilePictureView.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Public/FBSDKLoginKit/FBSDKTooltipView.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Public/FBSDKLoginKit/FBSDKLoginTooltipView.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkReturnToRefererView.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkReturnToRefererView.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKUtility.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKUtility.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/Sources/FBSDKCoreKit_Basics/include/FBSDKBasicUtility.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/Sources/FBSDKCoreKit_Basics/include/FBSDKTypeUtility.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkUtility.h"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkUtility.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/dmitriypirko/Documents/puzzle(git)/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.modulemap"
+- "/Users/dmitriypirko/Library/Developer/Xcode/DerivedData/BoXoB-crfqflhsdctnzqebduchfdovpvzd/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.modulemap"
+- "/Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Public/FBSDKLoginKit/FBSDKLoginKit.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d7d9a6f25363fba56411541d14d01e1b"

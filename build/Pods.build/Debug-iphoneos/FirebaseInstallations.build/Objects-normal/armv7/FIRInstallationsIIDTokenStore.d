@@ -1,0 +1,27 @@
+dependencies: \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/IIDMigration/FIRInstallationsIIDTokenStore.m \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/IIDMigration/FIRInstallationsIIDTokenStore.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/dyld.modulemap \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromises.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+All.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromiseError.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Always.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Any.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Async.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Await.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Catch.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Delay.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Do.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Race.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Recover.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Reduce.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Retry.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Then.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Timeout.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Validate.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Wrap.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Errors/FIRInstallationsErrorUtil.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FIRInstallationsErrors.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/SecureStorage/FIRInstallationsKeychainUtils.h

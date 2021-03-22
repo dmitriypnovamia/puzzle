@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/FIRStorageReference.m \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/Public/FIRStorageReference.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/dyld.modulemap \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/Public/FIRStorage.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/Public/FIRStorageConstants.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/Public/FIRStorageDownloadTask.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/Public/FIRStorageObservableTask.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/Public/FIRStorageTask.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/Public/FIRStorageMetadata.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/Public/FIRStorageListResult.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/Public/FIRStorageUploadTask.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/Public/FIRStorageTaskSnapshot.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/FIRStorageConstants_Private.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/FIRStorageDeleteTask.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/FIRStorageDownloadTask_Private.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/FIRStorageGetDownloadURLTask.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/FIRStorageGetMetadataTask.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/FIRStorageListResult_Private.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/FIRStorageListTask.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/FIRStorageMetadata_Private.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/FIRStorageReference_Private.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/FIRStoragePath.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/FIRStorageTaskSnapshot_Private.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/FIRStorageTask_Private.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/FIRStorageErrors.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/FIRStorageUtils.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/GTMSessionFetcher/GTMSessionFetcher.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/GTMSessionFetcher/GTMSessionFetcherService.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/FIRStorageUpdateMetadataTask.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/FIRStorageUploadTask_Private.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseStorage/FirebaseStorage/Sources/FIRStorage_Private.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FirebaseCore/FIRApp.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FirebaseCore/FIROptions.h

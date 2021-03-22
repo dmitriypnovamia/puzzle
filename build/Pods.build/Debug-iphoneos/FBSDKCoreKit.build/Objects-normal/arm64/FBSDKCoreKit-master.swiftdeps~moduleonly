@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "9d1a71eaaf4bef5a752a89afc09c8c8a"
+build_time: [1616151641, 613895000]
+inputs:
+  "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Swift/AccessToken.swift": [1615822439, 0]
+  "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Swift/Imports.swift": [1615822439, 0]
+  "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Swift/Permission.swift": [1615822439, 0]
+  "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Swift/Settings.swift": [1615822439, 0]

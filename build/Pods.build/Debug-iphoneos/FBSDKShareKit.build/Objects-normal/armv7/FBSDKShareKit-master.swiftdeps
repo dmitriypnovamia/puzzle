@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "ef3a3bde7942b939af153185942cd44b"
+build_time: [1616151911, 615937000]
+inputs:
+  "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/Swift/Enums+Extensions.swift": [1615822450, 0]

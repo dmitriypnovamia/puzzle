@@ -1,0 +1,39 @@
+dependencies: \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/BoringSSL-GRPC/crypto/x509/x_info.c \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Target\ Support\ Files/BoringSSL-GRPC/BoringSSL-GRPC-prefix.pch \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/x509.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/base.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/is_boringssl.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/opensslconf.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/asn1.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/bio.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/buffer.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/buf.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/err.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/ex_data.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/stack.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/type_check.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/thread.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/bn.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/cipher.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/dh.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/dsa.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/engine.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/ecdh.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/ec_key.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/ec.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/ecdsa.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/evp.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/aead.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/base64.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/digest.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/nid.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/obj.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/bytestring.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/span.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/pkcs7.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/pool.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/rsa.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/sha.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/x509_vfy.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/BoringSSL-GRPC/openssl_grpc/mem.h

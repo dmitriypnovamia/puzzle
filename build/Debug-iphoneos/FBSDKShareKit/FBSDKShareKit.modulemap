@@ -1,0 +1,12 @@
+module FBSDKShareKit {
+  umbrella header "FBSDKShareKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module FBSDKShareKit.Swift {
+  header "/Users/dmitriypirko/Documents/puzzle(git)/build/Debug-iphoneos/FBSDKShareKit/Swift Compatibility Header/FBSDKShareKit-Swift.h"
+  requires objc
+}

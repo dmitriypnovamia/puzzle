@@ -128,10 +128,10 @@
     self.rotateLBtn.frame = CGRectMake(25, self.hintBtn.frame.origin.y, 50, 50);
     self.rotateRBtn.frame = CGRectMake(100, self.hintBtn.frame.origin.y, 50, 50);
 
-    [self.rotateRBtn setBackgroundImage:[UIImage imageNamed:@"btnThemeImg"] forState:UIControlStateNormal];
-    [self.rotateLBtn setBackgroundImage:[UIImage imageNamed:@"btnThemeImg"] forState:UIControlStateNormal];
+    //[self.rotateRBtn setBackgroundImage:[UIImage imageNamed:@"btnThemeImg"] forState:UIControlStateNormal];
+    //[self.rotateLBtn setBackgroundImage:[UIImage imageNamed:@"btnThemeImg"] forState:UIControlStateNormal];
     
-    [self.hintBtn setBackgroundImage:[UIImage imageNamed:@"btnThemeImg"] forState:UIControlStateNormal];
+    //[self.hintBtn setBackgroundImage:[UIImage imageNamed:@"btnThemeImg"] forState:UIControlStateNormal];
     self.gameLayer.clipsToBounds    =   true;
     [self addSpritesForCells:newCells];
 }

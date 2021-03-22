@@ -124,7 +124,7 @@
     self.gameLayer.clipsToBounds    =   true;
     //    [self.view addSubview:_gameLayer];
     self.hintBtn.frame = CGRectMake(self.view.frame.size.width - 75, _gameLayer.frame.origin.y + _gameLayer.frame.size.height + 25, 50, 50);
-    [self.hintBtn setBackgroundImage:[UIImage imageNamed:@"btnThemeImg"] forState:UIControlStateNormal];
+    //[self.hintBtn setBackgroundImage:[UIImage imageNamed:@"btnThemeImg"] forState:UIControlStateNormal];
     
     [self addSpritesForCells:newCells];
 }
@@ -508,20 +508,21 @@
         [self.navigationController popViewControllerAnimated:true];
     }
     else{
-        if (self.levelNumber <= 12) {
+        if (self.levelNumber <= 11) {
             self.levelNumber += 1;
             [self beginGame];
             
             if (self.levelNumber % 10 == 0){
-                [self openCoinsWheel];
+                //[self openCoinsWheel];
             }
             else if (self.levelNumber % 2 == 0){
-                [self showVideoAds];
+                //[self showVideoAds];
             }
             else if (self.levelNumber % 3 == 0){
                 [self rate];
             }
         } else {
+            self.levelNumber = 1;
             [self.navigationController popViewControllerAnimated:true];
         }
     }
@@ -649,7 +650,7 @@
     [self.movesBtn setTitleColor:[[Theme sharedManager] btnsTintColor] forState:UIControlStateNormal];
     
     self.hintsLbl.textColor = [[Theme sharedManager] btnsTintColor];
-    self.levelNumberLbl.textColor = [[Theme sharedManager] btnsTintColor];
+    //self.levelNumberLbl.textColor = [[Theme sharedManager] btnsTintColor];
     self.pointslable.textColor = [[Theme sharedManager] btnsTitleColor];
 
     self.hintsLbl.backgroundColor = [[Theme sharedManager] themeColor];

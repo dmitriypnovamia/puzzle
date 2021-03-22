@@ -125,13 +125,13 @@
     self.gameLayer.clipsToBounds    =   true;
     _gameLayer.layer.borderWidth = 4;
     
-    [self.hintBtn setBackgroundImage:[UIImage imageNamed:@"btnThemeImg"] forState:UIControlStateNormal];
+    //[self.hintBtn setBackgroundImage:[UIImage imageNamed:@"btnThemeImg"] forState:UIControlStateNormal];
     self.hintBtn.frame = CGRectMake(self.view.frame.size.width - 75, _gameLayer.frame.origin.y + _gameLayer.frame.size.height + 25, 50, 50);
     self.flipHBtn.frame = CGRectMake(25, self.hintBtn.frame.origin.y, 50, 50);
     self.flipVBtn.frame = CGRectMake(100, self.hintBtn.frame.origin.y, 50, 50);
 
-    [self.flipHBtn setBackgroundImage:[UIImage imageNamed:@"btnThemeImg"] forState:UIControlStateNormal];
-    [self.flipVBtn setBackgroundImage:[UIImage imageNamed:@"btnThemeImg"] forState:UIControlStateNormal];
+    //[self.flipHBtn setBackgroundImage:[UIImage imageNamed:@"btnThemeImg"] forState:UIControlStateNormal];
+    //[self.flipVBtn setBackgroundImage:[UIImage imageNamed:@"btnThemeImg"] forState:UIControlStateNormal];
     [self addSpritesForCells:newCells];
 }
 

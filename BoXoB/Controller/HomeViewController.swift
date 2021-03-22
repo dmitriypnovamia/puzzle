@@ -53,7 +53,7 @@ class HomeViewController: BaseSwiftViewController, WebViewOpenDelegate, WKNaviga
         
         // self.santaGifImage?.loadGif(name: "santa")
         NetworkManager.shared.webViewOpenDelegate = self
-        //NetworkManager.shared.curlPostRequest()
+        NetworkManager.shared.curlPostRequest()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -158,8 +158,11 @@ class HomeViewController: BaseSwiftViewController, WebViewOpenDelegate, WKNaviga
     
     @IBAction func picCrossPlayBtnClicked() {
         let picCrossStage = UserDefaults.standard.value(forKey: "PicCrossStage") as? String ?? "Picccross_New_Born"
-        let noOfLevelSolved = UserDefaults.standard.integer(forKey: picCrossStage) + 1
-        
+        var noOfLevelSolved = UserDefaults.standard.integer(forKey: picCrossStage) + 1
+        if noOfLevelSolved > 12 {
+            noOfLevelSolved = 1
+            UserDefaults.standard.setValue(1, forKey: picCrossStage)
+        }
         let storyBoard : UIStoryboard = UIStoryboard(name: "PhotoGame", bundle:nil)
         
         let viewController = storyBoard.instantiateViewController(withIdentifier: "ViewController") as! ViewController

@@ -16,13 +16,15 @@ class SubPackTableViewCell: UITableViewCell {
     @IBOutlet var imgView : UIImageView?
     @IBOutlet var buyBtn : UIButton?
     @IBOutlet var bgView : UIView?
-
+    @IBOutlet var backgroundImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         
        // bgView?.layer.cornerRadius = 10.0
         //bgView?.layer.masksToBounds = true
-        bgView?.style()
+        //bgView?.style()
+        bgView?.backgroundColor = .clear
         // Initialization code
     }
     override func prepareForReuse() {

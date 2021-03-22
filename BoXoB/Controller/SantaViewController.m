@@ -114,7 +114,7 @@
     self.gameLayer.clipsToBounds    =   true;
     //    [self.view addSubview:_gameLayer];
     self.hintBtn.frame = CGRectMake(self.view.frame.size.width - 75, _gameLayer.frame.origin.y + _gameLayer.frame.size.height + 25, 50, 50);
-    [self.hintBtn setBackgroundImage:[UIImage imageNamed:@"btnThemeImg"] forState:UIControlStateNormal];
+    //[self.hintBtn setBackgroundImage:[UIImage imageNamed:@"btnThemeImg"] forState:UIControlStateNormal];
     
     [self addSpritesForCells:newCells];
 }

@@ -39,7 +39,7 @@ class PicCrossStageViewController: BaseSwiftViewController,UITableViewDataSource
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
         let cell:SubPackTableViewCell = (self.levelstable!.dequeueReusableCell(withIdentifier: "SubPackTableViewCell") as! SubPackTableViewCell?)!
-        
+        cell.backgroundColor = .clear
         cell.selectionStyle = .none
         cell.buyBtn?.tag = indexPath.row
         switch indexPath.row {

@@ -1,0 +1,14 @@
+dependencies: \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseCore/FirebaseCore/Sources/FIRCoreDiagnosticsConnector.m \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseCore/FirebaseCore/Sources/Private/FIRCoreDiagnosticsConnector.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/dyld.modulemap \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FirebaseCoreDiagnosticsInterop/FIRCoreDiagnosticsInterop.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FirebaseCoreDiagnosticsInterop/FIRCoreDiagnosticsData.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseCore/FirebaseCore/Sources/Public/FIROptions.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseCore/FirebaseCore/Sources/Private/FIRAppInternal.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseCore/FirebaseCore/Sources/Public/FIRApp.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseCore/FirebaseCore/Sources/Private/FIRErrors.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseCore/FirebaseCore/Sources/Private/FIRErrorCode.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseCore/FirebaseCore/Sources/Private/FIRDiagnosticsData.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseCore/FirebaseCore/Sources/Private/FIROptionsInternal.h

@@ -1,0 +1,12 @@
+module Kingfisher {
+  umbrella header "Kingfisher-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module Kingfisher.Swift {
+  header "/Users/dmitriypirko/Documents/puzzle(git)/build/Debug-iphoneos/Kingfisher/Swift Compatibility Header/Kingfisher-Swift.h"
+  requires objc
+}

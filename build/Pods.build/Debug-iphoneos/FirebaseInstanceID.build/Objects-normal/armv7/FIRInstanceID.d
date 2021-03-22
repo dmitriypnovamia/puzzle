@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceID.m \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseInstanceID/Firebase/InstanceID/Public/FIRInstanceID.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/dyld.modulemap \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FirebaseInstallations/FIRInstallations.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FirebaseCore/FIRAppInternal.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FirebaseCore/FIRApp.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FirebaseCore/FIRErrors.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FirebaseCore/FIRErrorCode.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FirebaseCore/FIRComponent.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FirebaseCore/FIRComponentContainer.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FirebaseCore/FIRComponentType.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FirebaseCore/FIRLibrary.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/FirebaseCore/FIROptions.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/GoogleUtilities/GULAppEnvironmentUtil.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/Headers/Private/GoogleUtilities/GULUserDefaults.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseInstanceID/Firebase/InstanceID/Private/FIRInstanceID+Private.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseInstanceID/Firebase/InstanceID/Private/FIRInstanceIDCheckinPreferences.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAuthService.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinService.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDUtilities.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCombinedHandler.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDConstants.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDDefines.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDLogger.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRIMessageCode.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDStore.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenInfo.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAPNSInfo.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenManager.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDVersionUtilities.h \
+  /Users/dmitriypirko/Documents/puzzle(git)/Pods/FirebaseInstanceID/Firebase/InstanceID/NSError+FIRInstanceID.h

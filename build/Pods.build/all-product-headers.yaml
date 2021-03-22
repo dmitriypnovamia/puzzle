@@ -1,0 +1,28 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/dmitriypirko/Documents/puzzle(git)/build/Debug-iphoneos/FBSDKCoreKit",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FBSDKCoreKit-Swift.h",
+          'external-contents': "/Users/dmitriypirko/Documents/puzzle(git)/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit-Swift.h"
+        },
+        {
+          'type': 'directory',
+          'name': "Modules",
+          'contents': [
+            {
+              'type': 'file',
+              'name': "module.modulemap",
+              'external-contents': "/Users/dmitriypirko/Documents/puzzle(git)/build/Pods.build/Debug-iphoneos/FBSDKCoreKit.build/module.modulemap"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

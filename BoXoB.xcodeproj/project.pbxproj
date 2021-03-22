@@ -159,7 +159,6 @@
 		18E1CD5F235B70F600FFCAF1 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD58235B70F500FFCAF1 /* BaseViewController.m */; };
 		18E1CD60235B70F600FFCAF1 /* DailyPuzzleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD5C235B70F600FFCAF1 /* DailyPuzzleViewController.swift */; };
 		18E1CD63235B70FC00FFCAF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD62235B70FB00FFCAF1 /* ViewController.m */; };
-		18E1CD66235B711600FFCAF1 /* SuperstarM54-Zq6K.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CD65235B711500FFCAF1 /* SuperstarM54-Zq6K.ttf */; };
 		18E1CD6A235B714100FFCAF1 /* PhotoGame.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CD67235B714000FFCAF1 /* PhotoGame.storyboard */; };
 		18E1CD6B235B714100FFCAF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CD68235B714000FFCAF1 /* Main.storyboard */; };
 		18E1CD6C235B714100FFCAF1 /* NumberGame.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CD69235B714000FFCAF1 /* NumberGame.storyboard */; };
@@ -201,7 +200,9 @@
 		18E1CDCA235B7EEF00FFCAF1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CDC9235B7EEF00FFCAF1 /* GoogleService-Info.plist */; };
 		18E1CDCC235B803900FFCAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CDCB235B803900FFCAF1 /* Assets.xcassets */; };
 		18FAE5402388678E00D83C2C /* BoxoB.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FAE53F2388678E00D83C2C /* BoxoB.xcassets */; };
-		496E61D93F8EFE28110B0307 /* libPods-BoXoB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3423619CA0D5BEAC47A6BF /* libPods-BoXoB.a */; };
+		513F0CFF26088B7A00ADD20F /* ElMessiri.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 513F0CFE26088B7A00ADD20F /* ElMessiri.ttf */; };
+		513F0D0126088DF500ADD20F /* SuperstarM54-Zq6K.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 513F0D0026088DF500ADD20F /* SuperstarM54-Zq6K.ttf */; };
+		519F27362604CBCF00A7B6C8 /* Pods_BoXoB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8610ACD0FCD50D87328CFED8 /* Pods_BoXoB.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -420,7 +421,6 @@
 		18E1CD5C235B70F600FFCAF1 /* DailyPuzzleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyPuzzleViewController.swift; sourceTree = "<group>"; };
 		18E1CD61235B70FB00FFCAF1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18E1CD62235B70FB00FFCAF1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18E1CD65235B711500FFCAF1 /* SuperstarM54-Zq6K.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SuperstarM54-Zq6K.ttf"; sourceTree = "<group>"; };
 		18E1CD67235B714000FFCAF1 /* PhotoGame.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PhotoGame.storyboard; sourceTree = "<group>"; };
 		18E1CD68235B714000FFCAF1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		18E1CD69235B714000FFCAF1 /* NumberGame.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NumberGame.storyboard; sourceTree = "<group>"; };
@@ -477,7 +477,9 @@
 		18FAE53F2388678E00D83C2C /* BoxoB.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BoxoB.xcassets; sourceTree = "<group>"; };
 		436A4F43B65C9D34648BC142 /* Pods-BoXoB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoXoB.release.xcconfig"; path = "Target Support Files/Pods-BoXoB/Pods-BoXoB.release.xcconfig"; sourceTree = "<group>"; };
 		512DC96E2602691D0038C12B /* Riddles & Brain Teasers Puzzle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Riddles & Brain Teasers Puzzle.entitlements"; sourceTree = "<group>"; };
-		7E3423619CA0D5BEAC47A6BF /* libPods-BoXoB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BoXoB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		513F0CFE26088B7A00ADD20F /* ElMessiri.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ElMessiri.ttf; sourceTree = "<group>"; };
+		513F0D0026088DF500ADD20F /* SuperstarM54-Zq6K.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SuperstarM54-Zq6K.ttf"; sourceTree = "<group>"; };
+		8610ACD0FCD50D87328CFED8 /* Pods_BoXoB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoXoB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D192BA825ECEC8C3FC8BC1 /* Pods-BoXoB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoXoB.debug.xcconfig"; path = "Target Support Files/Pods-BoXoB/Pods-BoXoB.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -486,10 +488,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				519F27362604CBCF00A7B6C8 /* Pods_BoXoB.framework in Frameworks */,
 				041ABFAE25FFA9CA00CDD81A /* FacebookLogin in Frameworks */,
 				041ABFA825FFA9CA00CDD81A /* FacebookShare in Frameworks */,
 				041ABFAA25FFA9CA00CDD81A /* FacebookCore in Frameworks */,
-				496E61D93F8EFE28110B0307 /* libPods-BoXoB.a in Frameworks */,
 				041ABFAC25FFA9CA00CDD81A /* FacebookGamingServices in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -911,7 +913,8 @@
 		18E1CD64235B711500FFCAF1 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				18E1CD65235B711500FFCAF1 /* SuperstarM54-Zq6K.ttf */,
+				513F0CFE26088B7A00ADD20F /* ElMessiri.ttf */,
+				513F0D0026088DF500ADD20F /* SuperstarM54-Zq6K.ttf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -1004,7 +1007,7 @@
 		9C19AE13BD1698877B41BA1B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7E3423619CA0D5BEAC47A6BF /* libPods-BoXoB.a */,
+				8610ACD0FCD50D87328CFED8 /* Pods_BoXoB.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1020,7 +1023,7 @@
 				18E1CBE8235B6E7000FFCAF1 /* Sources */,
 				18E1CBE9235B6E7000FFCAF1 /* Frameworks */,
 				18E1CBEA235B6E7000FFCAF1 /* Resources */,
-				E6AC1CFD90031AB719D6EAC3 /* [CP] Copy Pods Resources */,
+				6E306DD39473006B0498F0AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1045,7 +1048,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = apple;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					18E1CBEB235B6E7000FFCAF1 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -1105,6 +1108,7 @@
 				18A4881124588F80006F8AF3 /* FSAlbumViewCell.xib in Resources */,
 				18A4880A24588F80006F8AF3 /* Assets.xcassets in Resources */,
 				18E1CD6B235B714100FFCAF1 /* Main.storyboard in Resources */,
+				513F0D0126088DF500ADD20F /* SuperstarM54-Zq6K.ttf in Resources */,
 				18E1CC0B235B6ECD00FFCAF1 /* Flippo.gif in Resources */,
 				18E1CCC7235B6F3000FFCAF1 /* README.markdown in Resources */,
 				18A4881324588F80006F8AF3 /* FusumaViewController.xib in Resources */,
@@ -1117,7 +1121,6 @@
 				18E1CBFA235B6E7100FFCAF1 /* LaunchScreen.storyboard in Resources */,
 				18E1CD0C235B704E00FFCAF1 /* SubPackTableViewCell1.xib in Resources */,
 				182517572377316B00A76E12 /* backgroundMusic.mp3 in Resources */,
-				18E1CD66235B711600FFCAF1 /* SuperstarM54-Zq6K.ttf in Resources */,
 				18E1CD11235B704E00FFCAF1 /* SubPackTableViewCell.xib in Resources */,
 				189EBB26239ED99C0022A1B0 /* santa.gif in Resources */,
 				18E1CD0B235B704E00FFCAF1 /* PackTableViewCell.xib in Resources */,
@@ -1125,6 +1128,7 @@
 				18E1CC0A235B6ECD00FFCAF1 /* PatterenMatch.gif in Resources */,
 				18AA52872381BFDF0013F363 /* source.gif in Resources */,
 				18E1CCB0235B6F3000FFCAF1 /* YOLO.ph in Resources */,
+				513F0CFF26088B7A00ADD20F /* ElMessiri.ttf in Resources */,
 				18E1CCAD235B6F3000FFCAF1 /* LICENSE in Resources */,
 				18E1CD6C235B714100FFCAF1 /* NumberGame.storyboard in Resources */,
 				18FAE5402388678E00D83C2C /* BoxoB.xcassets in Resources */,
@@ -1137,6 +1141,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		6E306DD39473006B0498F0AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoXoB/Pods-BoXoB-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoXoB/Pods-BoXoB-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoXoB/Pods-BoXoB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6E9350533CD6235AFCD6223A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1157,23 +1178,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E6AC1CFD90031AB719D6EAC3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BoXoB/Pods-BoXoB-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BoXoB/Pods-BoXoB-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoXoB/Pods-BoXoB-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1406,7 +1410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1461,7 +1465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1479,16 +1483,16 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "BoXoB/Riddles & Brain Teasers Puzzle.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = W6JZBN985Y;
 				INFOPLIST_FILE = BoXoB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.2;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ImagePuzzle;
 				PRODUCT_MODULE_NAME = BoXoB;
 				PRODUCT_NAME = "Riddles & Brain Teasers Puzzle";
@@ -1507,16 +1511,16 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "BoXoB/Riddles & Brain Teasers Puzzle.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = W6JZBN985Y;
 				INFOPLIST_FILE = BoXoB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.2;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ImagePuzzle;
 				PRODUCT_MODULE_NAME = BoXoB;
 				PRODUCT_NAME = "Riddles & Brain Teasers Puzzle";

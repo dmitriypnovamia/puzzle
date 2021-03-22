@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "7f76d41359350b538d3e33474469e55a"
+build_time: [1616151906, 728643000]
+inputs:
+  "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/Swift/FBLoginButton.swift": [1615822444, 0]
+  "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/Swift/LoginConfiguration.swift": [1615822444, 0]
+  "/Users/dmitriypirko/Documents/puzzle(git)/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/Swift/LoginManager.swift": [1615822444, 0]

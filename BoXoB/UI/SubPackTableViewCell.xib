@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_5" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="SuperstarM54-Zq6K.ttf">
-            <string>SuperstarM54</string>
+        <array key="ElMessiri.ttf">
+            <string>ElMessiri-Bold</string>
         </array>
     </customFonts>
     <objects>
@@ -21,45 +19,53 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="84"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="83.666666666666671"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="84"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pRY-LW-o5u">
-                        <rect key="frame" x="10" y="0.0" width="300" height="73.666666666666671"/>
+                        <rect key="frame" x="10" y="0.0" width="300" height="74"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="Lco-m9-GlG">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="74"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mgc-1x-0ts">
-                                <rect key="frame" x="9.9999999999999964" y="9.9999999999999964" width="53.666666666666657" height="53.666666666666657"/>
+                                <rect key="frame" x="10" y="10" width="54" height="54"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Mgc-1x-0ts" secondAttribute="height" multiplier="1:1" id="4Wa-Vv-10s"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7UR-4v-HVM">
-                                <rect key="frame" x="73.666666666666671" y="23.333333333333329" width="53.333333333333329" height="27"/>
+                                <rect key="frame" x="74" y="23.666666666666671" width="47.666666666666657" height="27"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="JIQ-IW-Rvv"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="SuperstarM54" family="Superstar M54" pointSize="20"/>
-                                <color key="textColor" red="0.32549019610000002" green="0.21176470589999999" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ElMessiri-Bold" family="El Messiri" pointSize="20"/>
+                                <color key="textColor" red="0.30477431420000001" green="0.2284634411" blue="0.1725367904" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b54-Bt-HTp">
-                                <rect key="frame" x="280" y="23.333333333333329" width="0.0" height="27"/>
+                                <rect key="frame" x="280" y="23.666666666666671" width="0.0" height="27"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="jdn-Kd-nO9"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="SuperstarM54" family="Superstar M54" pointSize="20"/>
-                                <color key="textColor" red="0.32549019610000002" green="0.21176470589999999" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ElMessiri-Bold" family="El Messiri" pointSize="20"/>
+                                <color key="textColor" red="0.30477431420000001" green="0.2284634411" blue="0.1725367904" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="b54-Bt-HTp" firstAttribute="centerY" secondItem="7UR-4v-HVM" secondAttribute="centerY" id="BGW-Rx-1Yy"/>
+                            <constraint firstAttribute="trailing" secondItem="Lco-m9-GlG" secondAttribute="trailing" id="FCl-8V-56w"/>
                             <constraint firstItem="7UR-4v-HVM" firstAttribute="centerY" secondItem="Mgc-1x-0ts" secondAttribute="centerY" id="IM1-yf-NxP"/>
                             <constraint firstItem="7UR-4v-HVM" firstAttribute="leading" secondItem="Mgc-1x-0ts" secondAttribute="trailing" constant="10" id="KoP-ZB-Dop"/>
                             <constraint firstAttribute="bottom" secondItem="Mgc-1x-0ts" secondAttribute="bottom" constant="10" id="Q8n-l8-i2L"/>
                             <constraint firstItem="Mgc-1x-0ts" firstAttribute="leading" secondItem="pRY-LW-o5u" secondAttribute="leading" constant="10" id="WeG-mF-X9o"/>
+                            <constraint firstAttribute="bottom" secondItem="Lco-m9-GlG" secondAttribute="bottom" id="ZCF-BS-Knm"/>
+                            <constraint firstItem="Lco-m9-GlG" firstAttribute="leading" secondItem="pRY-LW-o5u" secondAttribute="leading" id="dC0-LQ-hmb"/>
                             <constraint firstAttribute="trailing" secondItem="b54-Bt-HTp" secondAttribute="trailing" constant="20" id="eXL-mW-Odo"/>
+                            <constraint firstItem="Lco-m9-GlG" firstAttribute="top" secondItem="pRY-LW-o5u" secondAttribute="top" id="nnq-Oq-d3I"/>
                             <constraint firstItem="Mgc-1x-0ts" firstAttribute="top" secondItem="pRY-LW-o5u" secondAttribute="top" constant="10" id="wyC-cF-FQX"/>
                         </constraints>
                     </view>
@@ -72,15 +78,19 @@
                     <constraint firstItem="pRY-LW-o5u" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="vv0-6l-jhL"/>
                 </constraints>
             </tableViewCellContentView>
-            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <connections>
+                <outlet property="backgroundImage" destination="Lco-m9-GlG" id="KN9-6n-d1q"/>
                 <outlet property="bgView" destination="pRY-LW-o5u" id="boB-WI-ASe"/>
                 <outlet property="descriptionLbl" destination="b54-Bt-HTp" id="gBm-G6-RnJ"/>
                 <outlet property="imgView" destination="Mgc-1x-0ts" id="S0T-GN-J9K"/>
                 <outlet property="subPackNameLbl" destination="7UR-4v-HVM" id="hLI-Uq-7cy"/>
             </connections>
-            <point key="canvasLocation" x="-345" y="-40"/>
+            <point key="canvasLocation" x="-346.37681159420293" y="-40.178571428571423"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="rectangle" width="357" height="80"/>
+    </resources>
 </document>

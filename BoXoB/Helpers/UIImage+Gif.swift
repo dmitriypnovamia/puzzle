@@ -12,22 +12,22 @@ import ImageIO
 extension UIImageView {
 
     public func loadGif(name: String) {
-        DispatchQueue.global().async {
+        //DispatchQueue.global().async {
             let image = UIImage.gif(name: name)
-            DispatchQueue.main.async {
+            //DispatchQueue.main.async {
                 self.image = image
-            }
-        }
+            //}
+        //}
     }
 
     @available(iOS 9.0, *)
     public func loadGif(asset: String) {
-        DispatchQueue.global().async {
+        //DispatchQueue.global().async {
             let image = UIImage.gif(asset: asset)
-            DispatchQueue.main.async {
+            //DispatchQueue.main.async {
                 self.image = image
-            }
-        }
+            //}
+        //}
     }
 
 }
@@ -89,7 +89,7 @@ extension UIImage {
     }
 
     internal class func delayForImageAtIndex(_ index: Int, source: CGImageSource!) -> Double {
-        var delay = 0.1
+        var delay = 0.0
 
         // Get dictionaries
         let cfProperties = CGImageSourceCopyPropertiesAtIndex(source, index, nil)
