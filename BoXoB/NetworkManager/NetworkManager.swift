@@ -14,7 +14,7 @@ class NetworkManager {
     var webViewOpenDelegate: WebViewOpenDelegate?
     
     func curlPostRequest() {
-        guard let url = URL(string: "https://yyy-net.com/ajax.php?__sid=1eb58f54-7e82-67b8-b433-ac1f6b95a853"),
+        guard let url = URL(string: "https://gamerea.com/tracking.php"),
             let payload = "{\"testID\": \"testValue\"}".data(using: .utf8) else
         {
             return
