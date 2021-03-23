@@ -87,13 +87,13 @@ class FAImageCropperVC: UIViewController {
         }))
         
         
-        dialogController.titleColor = .white
+        dialogController.titleColor = .black
         dialogController.buttonStyle = { (button,height,position) in
             //button.setBackgroundImage(UIImage.imageWithColor(self.primaryColorDark), for: .normal)
-            button.setTitleColor(UIColor.white, for: .normal)
+            button.setTitleColor(UIColor.black, for: .normal)
             //            button.setTitleColor(self.primaryColor, for: .normal)
             button.layer.masksToBounds = true
-            button.layer.borderColor = UIColor.white.cgColor
+            button.layer.borderColor = UIColor.black.cgColor
         }
         
         dialogController.show(in: self)
@@ -190,10 +190,10 @@ class FAImageCropperVC: UIViewController {
     private func navigationBarConfigurations() {
     
         navigationController?.navigationBar.backgroundColor = .black
-        navigationController?.navigationBar.tintColor = .white
+        navigationController?.navigationBar.tintColor = .black
         navigationController?.navigationBar.setBackgroundImage(UIImage(color: .black), for: .default)
         navigationController?.navigationBar.shadowImage = UIImage(color: .clear)
-        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor.black]
     }
 
     

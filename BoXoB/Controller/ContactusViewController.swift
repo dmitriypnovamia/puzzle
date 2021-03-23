@@ -40,7 +40,7 @@ class ContactusViewController: UIViewController {
         didSet {
             submitBtn.layer.cornerRadius = submitBtn.frame.height/2
             submitBtn.backgroundColor = UIColor.clear
-            submitBtn.layer.borderColor = UIColor.white.cgColor
+            submitBtn.layer.borderColor = UIColor.black.cgColor
             submitBtn.layer.borderWidth = 1
             
             submitBtn.style()

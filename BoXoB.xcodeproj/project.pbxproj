@@ -11,7 +11,6 @@
 		041ABFAA25FFA9CA00CDD81A /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 041ABFA925FFA9CA00CDD81A /* FacebookCore */; };
 		041ABFAC25FFA9CA00CDD81A /* FacebookGamingServices in Frameworks */ = {isa = PBXBuildFile; productRef = 041ABFAB25FFA9CA00CDD81A /* FacebookGamingServices */; };
 		041ABFAE25FFA9CA00CDD81A /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 041ABFAD25FFA9CA00CDD81A /* FacebookLogin */; };
-		04E7C4E32600C4F400B3C0A0 /* PicCross.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04E7C4E22600C4ED00B3C0A0 /* PicCross.gif */; };
 		04E7C4E62600CEC500B3C0A0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7C4E52600CEC500B3C0A0 /* NetworkManager.swift */; };
 		180885B6241908F80032C953 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180885B5241908F80032C953 /* Constant.swift */; };
 		182517572377316B00A76E12 /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 182517562377316B00A76E12 /* backgroundMusic.mp3 */; };
@@ -40,8 +39,6 @@
 		18E1CBFA235B6E7100FFCAF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CBF8235B6E7100FFCAF1 /* LaunchScreen.storyboard */; };
 		18E1CC07235B6ECD00FFCAF1 /* Rotato.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CC02235B6ECD00FFCAF1 /* Rotato.gif */; };
 		18E1CC08235B6ECD00FFCAF1 /* PicCross1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CC03235B6ECD00FFCAF1 /* PicCross1.gif */; };
-		18E1CC09235B6ECD00FFCAF1 /* MatchNumbers.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CC04235B6ECD00FFCAF1 /* MatchNumbers.gif */; };
-		18E1CC0A235B6ECD00FFCAF1 /* PatterenMatch.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CC05235B6ECD00FFCAF1 /* PatterenMatch.gif */; };
 		18E1CC0B235B6ECD00FFCAF1 /* Flippo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CC06235B6ECD00FFCAF1 /* Flippo.gif */; };
 		18E1CC13235B6EEA00FFCAF1 /* UINavigationController+Fade.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC12235B6EEA00FFCAF1 /* UINavigationController+Fade.m */; };
 		18E1CC24235B6EF900FFCAF1 /* SKProduct+LocalizedPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC15235B6EF900FFCAF1 /* SKProduct+LocalizedPrice.swift */; };
@@ -202,11 +199,13 @@
 		18FAE5402388678E00D83C2C /* BoxoB.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FAE53F2388678E00D83C2C /* BoxoB.xcassets */; };
 		513F0CFF26088B7A00ADD20F /* ElMessiri.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 513F0CFE26088B7A00ADD20F /* ElMessiri.ttf */; };
 		513F0D0126088DF500ADD20F /* SuperstarM54-Zq6K.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 513F0D0026088DF500ADD20F /* SuperstarM54-Zq6K.ttf */; };
+		513F0D032608D51E00ADD20F /* PicCross.gif in Resources */ = {isa = PBXBuildFile; fileRef = 513F0D022608D51E00ADD20F /* PicCross.gif */; };
+		513F0D052609DADE00ADD20F /* MatchNumbers.gif in Resources */ = {isa = PBXBuildFile; fileRef = 513F0D042609DADE00ADD20F /* MatchNumbers.gif */; };
+		513F0D072609DAF800ADD20F /* PatterenMatch.gif in Resources */ = {isa = PBXBuildFile; fileRef = 513F0D062609DAF800ADD20F /* PatterenMatch.gif */; };
 		519F27362604CBCF00A7B6C8 /* Pods_BoXoB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8610ACD0FCD50D87328CFED8 /* Pods_BoXoB.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04E7C4E22600C4ED00B3C0A0 /* PicCross.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PicCross.gif; sourceTree = "<group>"; };
 		04E7C4E52600CEC500B3C0A0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		180885B5241908F80032C953 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		182517562377316B00A76E12 /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
@@ -238,8 +237,6 @@
 		18E1CBFB235B6E7100FFCAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E1CC02235B6ECD00FFCAF1 /* Rotato.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Rotato.gif; sourceTree = "<group>"; };
 		18E1CC03235B6ECD00FFCAF1 /* PicCross1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PicCross1.gif; sourceTree = "<group>"; };
-		18E1CC04235B6ECD00FFCAF1 /* MatchNumbers.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = MatchNumbers.gif; sourceTree = "<group>"; };
-		18E1CC05235B6ECD00FFCAF1 /* PatterenMatch.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PatterenMatch.gif; sourceTree = "<group>"; };
 		18E1CC06235B6ECD00FFCAF1 /* Flippo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Flippo.gif; sourceTree = "<group>"; };
 		18E1CC0C235B6EDD00FFCAF1 /* BoXoB-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BoXoB-Bridging-Header.h"; sourceTree = "<group>"; };
 		18E1CC11235B6EEA00FFCAF1 /* UINavigationController+Fade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Fade.h"; sourceTree = "<group>"; };
@@ -479,6 +476,9 @@
 		512DC96E2602691D0038C12B /* Riddles & Brain Teasers Puzzle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Riddles & Brain Teasers Puzzle.entitlements"; sourceTree = "<group>"; };
 		513F0CFE26088B7A00ADD20F /* ElMessiri.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ElMessiri.ttf; sourceTree = "<group>"; };
 		513F0D0026088DF500ADD20F /* SuperstarM54-Zq6K.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SuperstarM54-Zq6K.ttf"; sourceTree = "<group>"; };
+		513F0D022608D51E00ADD20F /* PicCross.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PicCross.gif; sourceTree = "<group>"; };
+		513F0D042609DADE00ADD20F /* MatchNumbers.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = MatchNumbers.gif; sourceTree = "<group>"; };
+		513F0D062609DAF800ADD20F /* PatterenMatch.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PatterenMatch.gif; sourceTree = "<group>"; };
 		8610ACD0FCD50D87328CFED8 /* Pods_BoXoB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoXoB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D192BA825ECEC8C3FC8BC1 /* Pods-BoXoB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoXoB.debug.xcconfig"; path = "Target Support Files/Pods-BoXoB/Pods-BoXoB.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -634,13 +634,13 @@
 		18E1CC01235B6ECD00FFCAF1 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				04E7C4E22600C4ED00B3C0A0 /* PicCross.gif */,
+				513F0D022608D51E00ADD20F /* PicCross.gif */,
 				189EBB25239ED99A0022A1B0 /* santa.gif */,
 				18AA52862381BFDE0013F363 /* source.gif */,
 				18E1CC02235B6ECD00FFCAF1 /* Rotato.gif */,
 				18E1CC03235B6ECD00FFCAF1 /* PicCross1.gif */,
-				18E1CC04235B6ECD00FFCAF1 /* MatchNumbers.gif */,
-				18E1CC05235B6ECD00FFCAF1 /* PatterenMatch.gif */,
+				513F0D042609DADE00ADD20F /* MatchNumbers.gif */,
+				513F0D062609DAF800ADD20F /* PatterenMatch.gif */,
 				18E1CC06235B6ECD00FFCAF1 /* Flippo.gif */,
 			);
 			path = Demo;
@@ -1100,6 +1100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E1CD9C235B772F00FFCAF1 /* PatternMatchLevels.json in Resources */,
+				513F0D032608D51E00ADD20F /* PicCross.gif in Resources */,
 				18A4881024588F80006F8AF3 /* FSAlbumView.xib in Resources */,
 				18E1CD6A235B714100FFCAF1 /* PhotoGame.storyboard in Resources */,
 				18E1CCBA235B6F3000FFCAF1 /* tests in Resources */,
@@ -1114,10 +1115,8 @@
 				18A4881324588F80006F8AF3 /* FusumaViewController.xib in Resources */,
 				18A4880824588F80006F8AF3 /* FSCameraView.xib in Resources */,
 				18E1CCF1235B6F4D00FFCAF1 /* FAGridView.xib in Resources */,
-				04E7C4E32600C4F400B3C0A0 /* PicCross.gif in Resources */,
 				18E1CD99235B772F00FFCAF1 /* NumbersMatchLevels.json in Resources */,
 				18E1CC08235B6ECD00FFCAF1 /* PicCross1.gif in Resources */,
-				18E1CC09235B6ECD00FFCAF1 /* MatchNumbers.gif in Resources */,
 				18E1CBFA235B6E7100FFCAF1 /* LaunchScreen.storyboard in Resources */,
 				18E1CD0C235B704E00FFCAF1 /* SubPackTableViewCell1.xib in Resources */,
 				182517572377316B00A76E12 /* backgroundMusic.mp3 in Resources */,
@@ -1125,11 +1124,12 @@
 				189EBB26239ED99C0022A1B0 /* santa.gif in Resources */,
 				18E1CD0B235B704E00FFCAF1 /* PackTableViewCell.xib in Resources */,
 				18E1CDCA235B7EEF00FFCAF1 /* GoogleService-Info.plist in Resources */,
-				18E1CC0A235B6ECD00FFCAF1 /* PatterenMatch.gif in Resources */,
 				18AA52872381BFDF0013F363 /* source.gif in Resources */,
 				18E1CCB0235B6F3000FFCAF1 /* YOLO.ph in Resources */,
 				513F0CFF26088B7A00ADD20F /* ElMessiri.ttf in Resources */,
 				18E1CCAD235B6F3000FFCAF1 /* LICENSE in Resources */,
+				513F0D052609DADE00ADD20F /* MatchNumbers.gif in Resources */,
+				513F0D072609DAF800ADD20F /* PatterenMatch.gif in Resources */,
 				18E1CD6C235B714100FFCAF1 /* NumberGame.storyboard in Resources */,
 				18FAE5402388678E00D83C2C /* BoxoB.xcassets in Resources */,
 				18E1CC07235B6ECD00FFCAF1 /* Rotato.gif in Resources */,

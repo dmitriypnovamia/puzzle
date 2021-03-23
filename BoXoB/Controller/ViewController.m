@@ -118,7 +118,7 @@
     
     _gameLayer.frame  =  CGRectMake(0, self.view.frame.size.height - ((self.level.NumRows)*tileHeight) - (tileHeight * 1.5), (self.level.NumColumns )*tileWidth, (self.level.NumRows)*tileHeight);
     _gameLayer.center   =   CGPointMake(_gameLayer.center.x , self.view.center.y + 20);
-    _gameLayer.backgroundColor = [UIColor whiteColor];
+    _gameLayer.backgroundColor = [UIColor blackColor];
     _gameLayer.layer.borderWidth = 4;
     //_gameLayer.layer.borderColor = [UIColor whiteColor].CGColor;
     self.gameLayer.clipsToBounds    =   true;
@@ -522,7 +522,7 @@
                 [self rate];
             }
         } else {
-            self.levelNumber = 1;
+            self.levelNumber = 11;
             [self.navigationController popViewControllerAnimated:true];
         }
     }

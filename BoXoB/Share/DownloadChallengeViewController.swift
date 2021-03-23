@@ -39,7 +39,7 @@ class DownloadChallengeViewController: UIViewController {
     func applyBtnStyle(btn: UIButton)  {
         btn.layer.cornerRadius = btn.frame.height/2
         btn.backgroundColor = UIColor.clear
-        btn.layer.borderColor = UIColor.white.cgColor
+        btn.layer.borderColor = UIColor.black.cgColor
         btn.layer.borderWidth = 1
         btn.style()
     }
@@ -153,10 +153,10 @@ class DownloadChallengeViewController: UIViewController {
         dialogController.buttonStyle = { (button,height,position) in
             
             //button.setBackgroundImage(UIImage.imageWithColor(self.primaryColorDark), for: .normal)
-            button.setTitleColor(UIColor.white, for: .normal)
+            button.setTitleColor(UIColor.black, for: .normal)
             //            button.setTitleColor(self.primaryColor, for: .normal)
             button.layer.masksToBounds = true
-            button.layer.borderColor = UIColor.white.cgColor
+            button.layer.borderColor = UIColor.black.cgColor
         }
         
         dialogController.show(in: self)

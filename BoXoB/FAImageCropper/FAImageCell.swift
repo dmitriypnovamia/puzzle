@@ -27,7 +27,7 @@ class FAImageCell: UICollectionViewCell {
         
         didSet{
             if isSelected {
-                selectionView.backgroundColor = .white
+                selectionView.backgroundColor = .black
             }
             else{
                 selectionView.backgroundColor = .clear

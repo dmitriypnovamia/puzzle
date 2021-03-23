@@ -16,7 +16,7 @@ class SharePopupViewController: UIViewController {
         didSet {
             dismissButton.layer.cornerRadius = dismissButton.frame.height/2
             dismissButton.backgroundColor = UIColor.clear
-            dismissButton.layer.borderColor = UIColor.white.cgColor
+            dismissButton.layer.borderColor = UIColor.black.cgColor
             dismissButton.layer.borderWidth = 1
             dismissButton.style()
         }
@@ -26,7 +26,7 @@ class SharePopupViewController: UIViewController {
         didSet {
             copyButton.layer.cornerRadius = copyButton.frame.height/2
             copyButton.backgroundColor = UIColor.clear
-            copyButton.layer.borderColor = UIColor.white.cgColor
+            copyButton.layer.borderColor = UIColor.black.cgColor
             copyButton.layer.borderWidth = 1
             copyButton.style()
         }
@@ -36,7 +36,7 @@ class SharePopupViewController: UIViewController {
         didSet {
             shareButton.layer.cornerRadius = shareButton.frame.height/2
             shareButton.backgroundColor = UIColor.clear
-            shareButton.layer.borderColor = UIColor.white.cgColor
+            shareButton.layer.borderColor = UIColor.black.cgColor
             shareButton.layer.borderWidth = 1
             
             shareButton.style()

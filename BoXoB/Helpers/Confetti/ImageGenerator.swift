@@ -51,7 +51,7 @@ class ImageGenerator {
     return generate { context in
       let rect = CGRect(x: 0, y: 0, width: self.size.width, height: self.size.height/2)
       let path = UIBezierPath(rect: rect)
-      context?.setFillColor(UIColor.white.cgColor)
+      context?.setFillColor(UIColor.black.cgColor)
       context?.addPath(path.cgPath)
       context?.fillPath()
     }
@@ -61,7 +61,7 @@ class ImageGenerator {
     return generate { context in
       let rect = CGRect(origin: .zero, size: self.size)
       let path = UIBezierPath(ovalIn: rect)
-      context?.setFillColor(UIColor.white.cgColor)
+      context?.setFillColor(UIColor.black.cgColor)
       context?.addPath(path.cgPath)
       context?.fillPath()
     }
@@ -74,7 +74,7 @@ class ImageGenerator {
       path.addLine(to: CGPoint(x: self.size.width, y: self.size.height))
       path.addLine(to: CGPoint(x: 0, y: self.size.height))
       path.close()
-      context?.setFillColor(UIColor.white.cgColor)
+      context?.setFillColor(UIColor.black.cgColor)
       context?.addPath(path.cgPath)
       context?.fillPath()
     }
@@ -99,7 +99,7 @@ class ImageGenerator {
       path.addQuadCurve(to: CGPoint.zero,
                         controlPoint: leftPoint)
       path.close()
-      context?.setFillColor(UIColor.white.cgColor)
+      context?.setFillColor(UIColor.black.cgColor)
       context?.addPath(path.cgPath)
       context?.fillPath()
     }

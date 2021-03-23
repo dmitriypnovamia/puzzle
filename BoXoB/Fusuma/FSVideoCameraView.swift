@@ -304,7 +304,7 @@ fileprivate extension FSVideoCameraView {
         focusView.alpha  = 0.0
         focusView.center = point
         focusView.backgroundColor   = UIColor.clear
-        focusView.layer.borderColor = UIColor.white.cgColor
+        focusView.layer.borderColor = UIColor.black.cgColor
         focusView.layer.borderWidth = 1.0
         focusView.transform = CGAffineTransform(scaleX: 1.0, y: 1.0)
         addSubview(focusView)

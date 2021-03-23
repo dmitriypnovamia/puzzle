@@ -62,7 +62,7 @@ class NumbersMatchLevelSelectViewController: UIViewController,UICollectionViewDe
                 
             }
             else{
-                cell.nameLbl?.textColor = UIColor.white
+                cell.nameLbl?.textColor = UIColor.black
                 cell.imgView?.image = UIImage(named: "upcominglevelCellBg")
             }
             return cell

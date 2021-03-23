@@ -62,7 +62,7 @@ class FlippoFlipLevelSelectViewController: UIViewController,UICollectionViewDele
                 
             }
             else{
-                cell.nameLbl?.textColor = UIColor.white
+                cell.nameLbl?.textColor = UIColor.black
                 cell.imgView?.image = UIImage(named: "upcominglevelCellBg")
             }
             return cell
