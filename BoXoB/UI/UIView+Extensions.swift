@@ -278,14 +278,3 @@ extension UIView {
         return all
     }
 }
-
-extension UIView {
-    
-    func showHUD(progressLabel:String){
-        MBProgressHUD.showAdded(to: self, animated: true)
-    }
-    
-    func dismissHUD(isAnimated:Bool) {
-        MBProgressHUD.hide(for: self, animated: isAnimated)
-    }
-}

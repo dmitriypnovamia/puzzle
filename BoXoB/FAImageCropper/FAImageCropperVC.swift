@@ -34,13 +34,13 @@ class FAImageCropperVC: UIViewController {
         viewController.gridSize = Int32(size)
         viewController.puzzleId = ""
         
-        self.navigationController?.pushFadeViewController(viewController)
+        //self.navigationController?.pushFadeViewController(viewController)
         
     }
     
     
     @IBAction func back() {
-        self.navigationController?.fadePopViewController()
+        //self.navigationController?.fadePopViewController()
     }
     
     @IBAction func crop(_ sender: Any) {
@@ -51,7 +51,7 @@ class FAImageCropperVC: UIViewController {
         
         chooseGameTypeViewController.img = croppedImage
         
-        self.navigationController?.pushFadeViewController(chooseGameTypeViewController)
+        //self.navigationController?.pushFadeViewController(chooseGameTypeViewController)
         
         //self.askToPlayOrShare(image: croppedImage!)
     }
@@ -127,7 +127,7 @@ class FAImageCropperVC: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        self.tabBarController?.tabBar.isHidden = false
+        //self.tabBarController?.tabBar.isHidden = false
     }
     
     override func didReceiveMemoryWarning() {

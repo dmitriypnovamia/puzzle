@@ -20,12 +20,21 @@ class PicCrossStageViewController: BaseSwiftViewController,UITableViewDataSource
         levelstable.separatorStyle = .none
         // Do any additional setup after loading the view.
     }
+    deinit {
+        print("deinit \(self)")
+    }
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        dismiss(animated: false, completion: nil)
+    }
     
     @IBAction func backBtnClicked(){
+        //self.dismiss(animated: true, completion: nil)
         self.navigationController?.fadePopViewController()
     }
 
     @IBAction func homeBtnClicked(){
+        //self.view.window!.rootViewController?.dismiss(animated: false, completion: nil)
         self.navigationController?.fadePopToRootViewController()
     }
 
@@ -136,11 +145,13 @@ class PicCrossStageViewController: BaseSwiftViewController,UITableViewDataSource
                 levelSelectViewController.readAbleStage = "New Born"
             }
             
+            //levelSelectViewController.modalPresentationStyle = .fullScreen
+            //self.present(levelSelectViewController, animated: true, completion: nil)
             self.navigationController?.pushFadeViewController(levelSelectViewController)
         }
     }
     
-    override func levelUnlocked() {
+    func levelUnlocked() {
         if let selectedLevel = selectedLevel{
             UserDefaults.standard.set(true, forKey: selectedLevel)
             UserDefaults.standard.synchronize()

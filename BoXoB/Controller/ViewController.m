@@ -23,9 +23,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.tabBarController.tabBar.hidden = true;
-    
     [self beginGame];
     [self applyTheme];
+}
+
+- (void)dealloc {
+    //[super dealloc];
+    //[[_gameLayer subviews] makeObjectsPerformSelector:@selector(removeFromSuperview)];
+    printf("deinit");
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:(BOOL)animated];    // Call the super class implementation.
+    // Usually calling super class implementation is done before self class implementation, but it's up to your application.
+    [self dismissViewControllerAnimated:FALSE completion:nil];
 }
 
 -(void)dummyIncreaseLevel{
@@ -44,51 +55,51 @@
     self.confetiView.hidden = true;
     self.levelCompleteView.hidden = true;
 
-    for(UIImageView *view in _gameLayer.subviews){
-        //if ([view isKindOfClass:[UIImageView class]]){
-        [view removeFromSuperview];
-        //}
-    }
-    
-    if (self.dailyPuzzle == true){
-        self.nextLabel.text      =   @"Back";
-        self.levelNumberLbl.text      =   @"Daily Puzzle";
-        
-        NSMutableArray *viewCons = self.navigationController.viewControllers.mutableCopy;
-        [viewCons removeObjectAtIndex:viewCons.count - 2];
-        self.navigationController.viewControllers = viewCons;
-        [self startAfterImageLoad];
-
-    }
-    else if (self.cameraPicPuzzle == true){
-        [self startAfterImageLoad];
-    }
-    else{
+//    for(UIImageView *view in _gameLayer.subviews){
+//        //if ([view isKindOfClass:[UIImageView class]]){
+//        [view removeFromSuperview];
+//        //}
+//    }
+//
+//    if (self.dailyPuzzle == true){
+//        self.nextLabel.text      =   @"Back";
+//        self.levelNumberLbl.text      =   @"Daily Puzzle";
+//
+//        NSMutableArray *viewCons = self.navigationController.viewControllers.mutableCopy;
+//        [viewCons removeObjectAtIndex:viewCons.count - 2];
+//        self.navigationController.viewControllers = viewCons;
+//        [self startAfterImageLoad];
+//
+//    }
+//    else if (self.cameraPicPuzzle == true){
+//        [self startAfterImageLoad];
+//    }
+//    else{
         self.levelNumberLbl.text      =   [NSString stringWithFormat:@"Level: %lu",(unsigned long)self.levelNumber];
         self.puzzleImage = [UIImage imageNamed:[NSString stringWithFormat:@"%lu",(unsigned long)self.levelNumber]];
-        
-        if (self.puzzleImage == nil){
-            self.puzzleImage = [self loadimage];
-            
-            if (self.puzzleImage == nil){
-                // load from firebase
-                AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-                
-                [appDelegate downloadImageWithLevelNumber:self.levelNumber success:^(UIImage * _Nonnull image) {
-                    dispatch_async(dispatch_get_main_queue(), ^{
-                        self.puzzleImage = image;
-                        [self startAfterImageLoad];
-                    });
-                }];
-            }
-            else{
-                [self startAfterImageLoad];
-            }
-        }
-        else{
+//
+//        if (self.puzzleImage == nil){
+//            self.puzzleImage = [self loadimage];
+//
+//            if (self.puzzleImage == nil){
+//                // load from firebase
+//                AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+//
+//                [appDelegate downloadImageWithLevelNumber:self.levelNumber success:^(UIImage * _Nonnull image) {
+//                    dispatch_async(dispatch_get_main_queue(), ^{
+//                        self.puzzleImage = image;
+//                        [self startAfterImageLoad];
+//                    });
+//                }];
+//            }
+//            else{
+//                [self startAfterImageLoad];
+//            }
+//        }
+//        else{
             [self startAfterImageLoad];
-        }
-    }
+//        }
+//    }
 }
 
 - (NSString *)applicationDocumentsDirectory {
@@ -111,7 +122,7 @@
     self.level              =   [[Level alloc] initWithPuzzle:self.puzzleImage text:self.puzzleText];
     self.level.emptyTiles   =   [NSMutableArray new];
     
-    NSMutableArray *newCells    =   [self.level shuffle:self.gridSize row:self.gridSize];
+    NSMutableArray * newCells    =   [self.level shuffle:self.gridSize row:self.gridSize];
     
     tileWidth   =   [UIScreen mainScreen].bounds.size.width/(self.level.NumColumns);
     tileHeight  =   tileWidth;
@@ -130,16 +141,19 @@
 }
 
 - (void)addSpritesForCells:(NSMutableArray *)cells {
-    NSMutableArray *allAddedCells = [NSMutableArray new];
     for (Cell *cell in cells) {
         CellLabel *textCell = [self createCell:cell];
-        [allAddedCells addObject:textCell];
+        //textCell = [self createCell:cell];
+        //[textCell addObject:[self createCell:cell]];
         [self.gameLayer addSubview:textCell];
+
         
         int rndValue = arc4random() % 3;
 
         [self animateField:textCell withAnimationType:rndValue withDuration:0];
     }
+    
+    //[[_gameLayer subviews] makeObjectsPerformSelector:@selector(removeFromSuperview)];
 }
 
 - (void)updateSpritesForCells:(NSMutableArray *)cells withAnimation:(int)animationType{
@@ -154,7 +168,7 @@
     CATransition *animation = [CATransition animation];
     [animation setDuration:duration];
     [animation setType:kCATransitionPush];
-    
+
     if(animationType == 0)
         [animation setSubtype:kCATransitionFromLeft];
     if(animationType == 1)
@@ -163,9 +177,9 @@
         [animation setSubtype:kCATransitionFromTop];
     if(animationType == 3)
         [animation setSubtype:kCATransitionFromBottom];
-    
+
     [animation setTimingFunction:[CAMediaTimingFunction  functionWithName:kCAMediaTimingFunctionDefault]];
-    
+
     [[lbl layer] addAnimation:animation forKey:nil];
 }
 
@@ -539,6 +553,7 @@
 }
 
 -(IBAction)back:(id)sender{
+    //[self dismissViewControllerAnimated:YES completion:nil];
     [self.navigationController fadePopViewController];
 }
 
@@ -622,8 +637,8 @@
         //buy hints
 
         UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"PhotoGame" bundle:nil];
-        BuyCoinsViewController *purchaseVC = [storyboard instantiateViewControllerWithIdentifier:@"BuyCoinsViewController"];
-        [self.navigationController pushFadeViewController:purchaseVC];
+        
+        //[self.navigationController pushFadeViewController:purchaseVC];
     }
 }
 

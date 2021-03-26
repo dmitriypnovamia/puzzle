@@ -7,8 +7,6 @@
 //
 
 import UIKit
-import Firebase
-import GoogleMobileAds
 import FBSDKCoreKit
 import AppsFlyerLib
 
@@ -54,11 +52,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             didFinishLaunchingWithOptions: launchOptions
         )
         
-        FirebaseApp.configure()
-        GADMobileAds.sharedInstance().start(completionHandler: nil)
-        SwiftyStoreKit.setupIAP()
-        loadProducts()
-        
         let defaultHintsAvailable = UserDefaults.standard.bool(forKey: "defaultHintsAvailable")
         
         if defaultHintsAvailable != true{
@@ -73,13 +66,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        UserDefaults.standard.synchronize()
                 
         // Override point for customization after application launch.
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+
+        appDelegate.window?.rootViewController = HomeViewController()
+        
         return true
-    }
-    
-    override init() {
-       super.init()
-        FirebaseApp.configure()
-       // not really needed unless you really need it FIRDatabase.database().persistenceEnabled = true
     }
     
     func application(
@@ -118,38 +109,38 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       }
     }
     
-    func loadProducts(){
-        SwiftyStoreKit.retrieveProductsInfo([InAppPurchaseIds.points100,InAppPurchaseIds.points200,InAppPurchaseIds.points500,InAppPurchaseIds.points800,InAppPurchaseIds.points1000,InAppPurchaseIds.points2000,InAppPurchaseIds.proVersionId]) { result in
-            DispatchQueue.main.async {
-                if result.retrievedProducts.count > 0{
-                    for product in result.retrievedProducts{
-                        switch product.productIdentifier {
-                        case InAppPurchaseIds.points100:
-                            self.productFor100Coins = product
-                        case InAppPurchaseIds.points200:
-                            self.productFor200Coins = product
-                        case InAppPurchaseIds.points500:
-                            self.productFor500Coins = product
-                        case InAppPurchaseIds.points800:
-                            self.productFor800Coins = product
-                        case InAppPurchaseIds.points1000:
-                            self.productFor1000Coins = product
-                        case InAppPurchaseIds.points2000:
-                            self.productFor2000Coins = product
-                        case InAppPurchaseIds.proVersionId:
-                            self.productPro = product
-                        default:
-                            print("default")
-                        }
-                    }
-                    
-                    if let productsLoaded = self.productsLoaded{
-                        productsLoaded()
-                    }
-                }
-            }
-        }
-    }
+//    func loadProducts(){
+//        SwiftyStoreKit.retrieveProductsInfo([InAppPurchaseIds.points100,InAppPurchaseIds.points200,InAppPurchaseIds.points500,InAppPurchaseIds.points800,InAppPurchaseIds.points1000,InAppPurchaseIds.points2000,InAppPurchaseIds.proVersionId]) { result in
+//            DispatchQueue.main.async {
+//                if result.retrievedProducts.count > 0{
+//                    for product in result.retrievedProducts{
+//                        switch product.productIdentifier {
+//                        case InAppPurchaseIds.points100:
+//                            self.productFor100Coins = product
+//                        case InAppPurchaseIds.points200:
+//                            self.productFor200Coins = product
+//                        case InAppPurchaseIds.points500:
+//                            self.productFor500Coins = product
+//                        case InAppPurchaseIds.points800:
+//                            self.productFor800Coins = product
+//                        case InAppPurchaseIds.points1000:
+//                            self.productFor1000Coins = product
+//                        case InAppPurchaseIds.points2000:
+//                            self.productFor2000Coins = product
+//                        case InAppPurchaseIds.proVersionId:
+//                            self.productPro = product
+//                        default:
+//                            print("default")
+//                        }
+//                    }
+//
+//                    if let productsLoaded = self.productsLoaded{
+//                        productsLoaded()
+//                    }
+//                }
+//            }
+//        }
+//    }
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -201,29 +192,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          return true
      }
 
-    @objc public func downloadImage(levelNumber: Int, success:@escaping imageDownloadSuccess){
-        if levelNumber > 150{
-            return
-        }
-        let storageRef = Storage.storage()
-        let imageRef = storageRef.reference(withPath: "\(levelNumber).png")
-        
-        // Download in memory with a maximum allowed size of 1MB (1 * 1024 * 1024 bytes)
-        imageRef.getData(maxSize: 5 * 1024 * 1024) { data, error in
-            if let error = error {
-                // Uh-oh, an error occurred!
-            } else {
-                
-                UserDefaults.standard.set(levelNumber, forKey: "lastLevelImageDownloaded")
-                UserDefaults.standard.synchronize()
-                
-                // Data for "images/island.jpg" is returned
-                let image = UIImage(data: data!)
-                image?.saveToDocuments(filename: levelNumber)
-                success(image!)
-            }
-        }
-    }
+
     
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         let tokenParts = deviceToken.map { data in String(format: "%02.2hhx", data) }

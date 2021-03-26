@@ -23,14 +23,14 @@ final class FSImageCropView: UIScrollView, UIScrollViewDelegate {
                 addSubview(imageView)
             }
 
-            guard fusumaCropImage else {
-                imageView.frame = frame
-                imageView.contentMode = .scaleAspectFit
-                isUserInteractionEnabled = false
-
-                imageView.image = image
-                return
-            }
+            //guard fusumaCropImage else {
+//                imageView.frame = frame
+//                imageView.contentMode = .scaleAspectFit
+//                isUserInteractionEnabled = false
+//
+//                imageView.image = image
+//                return
+//            }
 
             let imageSize = self.imageSize ?? image.size
             let ratioW = frame.width / imageSize.width // 400 / 1000 => 0.4
@@ -64,7 +64,7 @@ final class FSImageCropView: UIScrollView, UIScrollViewDelegate {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)!
 
-        backgroundColor = fusumaBackgroundColor
+        //backgroundColor = fusumaBackgroundColor
         frame.size      = CGSize.zero
         clipsToBounds   = true
 

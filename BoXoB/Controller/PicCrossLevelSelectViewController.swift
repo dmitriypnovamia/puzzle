@@ -30,11 +30,18 @@ class PicCrossLevelSelectViewController: BaseSwiftViewController,UICollectionVie
         levelstable.reloadData()
     }
     
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        dismiss(animated: false, completion: nil)
+    }
+    
     @IBAction func backBtnClicked(){
+        //self.dismiss(animated: true, completion: nil)
         self.navigationController?.fadePopViewController()
     }
     
     @IBAction func homeBtnClicked(){
+        //self.view.window!.rootViewController?.dismiss(animated: false, completion: nil)
         self.navigationController?.fadePopToRootViewController()
     }
     
@@ -99,6 +106,9 @@ class PicCrossLevelSelectViewController: BaseSwiftViewController,UICollectionVie
         }
         viewController.stage = self.stageType
         viewController.levelNumber = UInt(indexPath.item + 1)
+        
+        //viewController.modalPresentationStyle = .fullScreen
+        //self.present(viewController, animated: true, completion: nil)
         self.navigationController?.pushFadeViewController(viewController)
         
         UserDefaults.standard.set(self.stageType, forKey: "PicCrossStage")

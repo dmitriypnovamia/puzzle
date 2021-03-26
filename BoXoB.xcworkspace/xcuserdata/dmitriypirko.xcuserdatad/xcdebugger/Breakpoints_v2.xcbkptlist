@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5915F7B9-E010-4C92-B672-7EDCD1B60A8B"
-            shouldBeEnabled = "No"
+            uuid = "C7EA4EB9-7685-4BE0-86B2-689E3801D295"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "BoXoB/Helpers/UIImage+Gif.swift"
+            filePath = "BoXoB/Controller/ViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "117"
-            endingLineNumber = "117"
-            landmarkName = "delayForImageAtIndex(_:source:)"
+            startingLineNumber = "220"
+            endingLineNumber = "220"
+            landmarkName = "-createResultCell:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

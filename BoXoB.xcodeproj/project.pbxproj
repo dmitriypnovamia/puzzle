@@ -7,32 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		041ABFA825FFA9CA00CDD81A /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = 041ABFA725FFA9CA00CDD81A /* FacebookShare */; };
-		041ABFAA25FFA9CA00CDD81A /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 041ABFA925FFA9CA00CDD81A /* FacebookCore */; };
-		041ABFAC25FFA9CA00CDD81A /* FacebookGamingServices in Frameworks */ = {isa = PBXBuildFile; productRef = 041ABFAB25FFA9CA00CDD81A /* FacebookGamingServices */; };
-		041ABFAE25FFA9CA00CDD81A /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 041ABFAD25FFA9CA00CDD81A /* FacebookLogin */; };
-		04E7C4E62600CEC500B3C0A0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7C4E52600CEC500B3C0A0 /* NetworkManager.swift */; };
 		180885B6241908F80032C953 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180885B5241908F80032C953 /* Constant.swift */; };
-		182517572377316B00A76E12 /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 182517562377316B00A76E12 /* backgroundMusic.mp3 */; };
-		18659DFE2387D36400D82062 /* PatterenMatchStageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18659DFD2387D36400D82062 /* PatterenMatchStageViewController.swift */; };
-		189EBB1E239EC52F0022A1B0 /* SantaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EBB1D239EC52F0022A1B0 /* SantaViewController.m */; };
-		189EBB21239EC74E0022A1B0 /* SantaLevelSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EBB1F239EC74A0022A1B0 /* SantaLevelSelectViewController.swift */; };
-		189EBB22239EC74E0022A1B0 /* SantaStageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EBB20239EC74E0022A1B0 /* SantaStageViewController.swift */; };
 		189EBB26239ED99C0022A1B0 /* santa.gif in Resources */ = {isa = PBXBuildFile; fileRef = 189EBB25239ED99A0022A1B0 /* santa.gif */; };
-		18A4880824588F80006F8AF3 /* FSCameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A487F924588F7F006F8AF3 /* FSCameraView.xib */; };
 		18A4880924588F80006F8AF3 /* FSImageCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A487FA24588F7F006F8AF3 /* FSImageCropView.swift */; };
 		18A4880A24588F80006F8AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A487FB24588F80006F8AF3 /* Assets.xcassets */; };
-		18A4880B24588F80006F8AF3 /* FSVideoCameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A487FC24588F80006F8AF3 /* FSVideoCameraView.xib */; };
 		18A4880C24588F80006F8AF3 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A487FE24588F80006F8AF3 /* UIViewExtensions.swift */; };
 		18A4880D24588F80006F8AF3 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A487FF24588F80006F8AF3 /* UIColorExtensions.swift */; };
-		18A4880E24588F80006F8AF3 /* FSAlbumViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A4880024588F80006F8AF3 /* FSAlbumViewCell.swift */; };
-		18A4880F24588F80006F8AF3 /* FSVideoCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A4880124588F80006F8AF3 /* FSVideoCameraView.swift */; };
-		18A4881024588F80006F8AF3 /* FSAlbumView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A4880224588F80006F8AF3 /* FSAlbumView.xib */; };
-		18A4881124588F80006F8AF3 /* FSAlbumViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A4880324588F80006F8AF3 /* FSAlbumViewCell.xib */; };
-		18A4881224588F80006F8AF3 /* FusumaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A4880424588F80006F8AF3 /* FusumaViewController.swift */; };
-		18A4881324588F80006F8AF3 /* FusumaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A4880524588F80006F8AF3 /* FusumaViewController.xib */; };
-		18A4881424588F80006F8AF3 /* FSCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A4880624588F80006F8AF3 /* FSCameraView.swift */; };
-		18A4881524588F80006F8AF3 /* FSAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A4880724588F80006F8AF3 /* FSAlbumView.swift */; };
 		18AA52872381BFDF0013F363 /* source.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18AA52862381BFDE0013F363 /* source.gif */; };
 		18AE2C2A235C610E00D169E9 /* ChooseGameTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE2C29235C610E00D169E9 /* ChooseGameTypeViewController.swift */; };
 		18E1CBF0235B6E7000FFCAF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CBEF235B6E7000FFCAF1 /* AppDelegate.swift */; };
@@ -41,82 +21,6 @@
 		18E1CC08235B6ECD00FFCAF1 /* PicCross1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CC03235B6ECD00FFCAF1 /* PicCross1.gif */; };
 		18E1CC0B235B6ECD00FFCAF1 /* Flippo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CC06235B6ECD00FFCAF1 /* Flippo.gif */; };
 		18E1CC13235B6EEA00FFCAF1 /* UINavigationController+Fade.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC12235B6EEA00FFCAF1 /* UINavigationController+Fade.m */; };
-		18E1CC24235B6EF900FFCAF1 /* SKProduct+LocalizedPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC15235B6EF900FFCAF1 /* SKProduct+LocalizedPrice.swift */; };
-		18E1CC25235B6EF900FFCAF1 /* InAppProductQueryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC16235B6EF900FFCAF1 /* InAppProductQueryRequest.swift */; };
-		18E1CC26235B6EF900FFCAF1 /* InAppReceiptRefreshRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC17235B6EF900FFCAF1 /* InAppReceiptRefreshRequest.swift */; };
-		18E1CC27235B6EF900FFCAF1 /* SwiftyStoreKit+Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC18235B6EF900FFCAF1 /* SwiftyStoreKit+Types.swift */; };
-		18E1CC28235B6EF900FFCAF1 /* InAppReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC19235B6EF900FFCAF1 /* InAppReceipt.swift */; };
-		18E1CC29235B6EF900FFCAF1 /* SwiftyStoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC1A235B6EF900FFCAF1 /* SwiftyStoreKit.swift */; };
-		18E1CC2A235B6EF900FFCAF1 /* ProductsInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC1B235B6EF900FFCAF1 /* ProductsInfoController.swift */; };
-		18E1CC2B235B6EF900FFCAF1 /* CompleteTransactionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC1C235B6EF900FFCAF1 /* CompleteTransactionsController.swift */; };
-		18E1CC2C235B6EF900FFCAF1 /* NetworkActivityIndicatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC1D235B6EF900FFCAF1 /* NetworkActivityIndicatorManager.swift */; };
-		18E1CC2D235B6EF900FFCAF1 /* PaymentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC1E235B6EF900FFCAF1 /* PaymentsController.swift */; };
-		18E1CC2E235B6EF900FFCAF1 /* OS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC1F235B6EF900FFCAF1 /* OS.swift */; };
-		18E1CC2F235B6EF900FFCAF1 /* RestorePurchasesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC20235B6EF900FFCAF1 /* RestorePurchasesController.swift */; };
-		18E1CC30235B6EF900FFCAF1 /* PaymentQueueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC21235B6EF900FFCAF1 /* PaymentQueueController.swift */; };
-		18E1CC31235B6EF900FFCAF1 /* InAppReceiptVerificator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC22235B6EF900FFCAF1 /* InAppReceiptVerificator.swift */; };
-		18E1CC32235B6EF900FFCAF1 /* AppleReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC23235B6EF900FFCAF1 /* AppleReceiptValidator.swift */; };
-		18E1CC36235B6F0900FFCAF1 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC34235B6F0800FFCAF1 /* MBProgressHUD.m */; };
-		18E1CCA5235B6F3000FFCAF1 /* NSArray+without.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC3A235B6F2F00FFCAF1 /* NSArray+without.m */; };
-		18E1CCA6235B6F3000FFCAF1 /* NSArray+snip.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC3C235B6F2F00FFCAF1 /* NSArray+snip.m */; };
-		18E1CCA7235B6F3000FFCAF1 /* NSArray+none.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC3D235B6F2F00FFCAF1 /* NSArray+none.m */; };
-		18E1CCA8235B6F3000FFCAF1 /* NSArray+inject.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC43235B6F2F00FFCAF1 /* NSArray+inject.m */; };
-		18E1CCA9235B6F3000FFCAF1 /* NSMutableArray+unshift.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC45235B6F2F00FFCAF1 /* NSMutableArray+unshift.m */; };
-		18E1CCAA235B6F3000FFCAF1 /* NSArray+groupBy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC46235B6F2F00FFCAF1 /* NSArray+groupBy.m */; };
-		18E1CCAB235B6F3000FFCAF1 /* NSMutableArray+push.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC47235B6F2F00FFCAF1 /* NSMutableArray+push.m */; };
-		18E1CCAC235B6F3000FFCAF1 /* NSArray+slice.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC48235B6F2F00FFCAF1 /* NSArray+slice.m */; };
-		18E1CCAD235B6F3000FFCAF1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CC49235B6F2F00FFCAF1 /* LICENSE */; };
-		18E1CCAE235B6F3000FFCAF1 /* NSArray+all.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC4B235B6F2F00FFCAF1 /* NSArray+all.m */; };
-		18E1CCAF235B6F3000FFCAF1 /* NSArray+partition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC4C235B6F2F00FFCAF1 /* NSArray+partition.m */; };
-		18E1CCB0235B6F3000FFCAF1 /* YOLO.ph in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CC4E235B6F2F00FFCAF1 /* YOLO.ph */; };
-		18E1CCB1235B6F3000FFCAF1 /* NSArray+skip.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC4F235B6F2F00FFCAF1 /* NSArray+skip.m */; };
-		18E1CCB2235B6F3000FFCAF1 /* NSArray+has.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC52235B6F2F00FFCAF1 /* NSArray+has.m */; };
-		18E1CCB3235B6F3000FFCAF1 /* NSDictionary+array.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC54235B6F2F00FFCAF1 /* NSDictionary+array.m */; };
-		18E1CCB4235B6F3000FFCAF1 /* NSArray+concat.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC57235B6F2F00FFCAF1 /* NSArray+concat.m */; };
-		18E1CCB5235B6F3000FFCAF1 /* NSArray+shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC58235B6F2F00FFCAF1 /* NSArray+shuffle.m */; };
-		18E1CCB6235B6F3000FFCAF1 /* NSArray+map.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC59235B6F2F00FFCAF1 /* NSArray+map.m */; };
-		18E1CCB7235B6F3000FFCAF1 /* NSString+split.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC5A235B6F2F00FFCAF1 /* NSString+split.m */; };
-		18E1CCB8235B6F3000FFCAF1 /* NSArray+chunk.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC5C235B6F2F00FFCAF1 /* NSArray+chunk.m */; };
-		18E1CCB9235B6F3000FFCAF1 /* NSMutableArray+pop.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC5E235B6F2F00FFCAF1 /* NSMutableArray+pop.m */; };
-		18E1CCBA235B6F3000FFCAF1 /* tests in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CC60235B6F2F00FFCAF1 /* tests */; };
-		18E1CCBB235B6F3000FFCAF1 /* NSArray+find.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC61235B6F2F00FFCAF1 /* NSArray+find.m */; };
-		18E1CCBC235B6F3000FFCAF1 /* NSArray+last.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC62235B6F2F00FFCAF1 /* NSArray+last.m */; };
-		18E1CCBD235B6F3000FFCAF1 /* NSArray+first.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC63235B6F2F00FFCAF1 /* NSArray+first.m */; };
-		18E1CCBE235B6F3000FFCAF1 /* NSDictionary+get.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC65235B6F2F00FFCAF1 /* NSDictionary+get.m */; };
-		18E1CCBF235B6F3000FFCAF1 /* NSArray+min.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC66235B6F2F00FFCAF1 /* NSArray+min.m */; };
-		18E1CCC0235B6F3000FFCAF1 /* NSMutableArray+shift.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC67235B6F2F00FFCAF1 /* NSMutableArray+shift.m */; };
-		18E1CCC1235B6F3000FFCAF1 /* NSSet+fmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC6A235B6F2F00FFCAF1 /* NSSet+fmap.m */; };
-		18E1CCC2235B6F3000FFCAF1 /* NSArray+each.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC6C235B6F2F00FFCAF1 /* NSArray+each.m */; };
-		18E1CCC3235B6F3000FFCAF1 /* NSArray+pmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC6D235B6F2F00FFCAF1 /* NSArray+pmap.m */; };
-		18E1CCC4235B6F3000FFCAF1 /* NSArray+transpose.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC6E235B6F2F00FFCAF1 /* NSArray+transpose.m */; };
-		18E1CCC5235B6F3000FFCAF1 /* NSArray+fmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC6F235B6F2F00FFCAF1 /* NSArray+fmap.m */; };
-		18E1CCC6235B6F3000FFCAF1 /* NSSet+each.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC70235B6F2F00FFCAF1 /* NSSet+each.m */; };
-		18E1CCC7235B6F3000FFCAF1 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CC71235B6F2F00FFCAF1 /* README.markdown */; };
-		18E1CCC8235B6F3000FFCAF1 /* NSArray+rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC73235B6F2F00FFCAF1 /* NSArray+rotate.m */; };
-		18E1CCC9235B6F3000FFCAF1 /* NSArray+reduce.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC75235B6F2F00FFCAF1 /* NSArray+reduce.m */; };
-		18E1CCCA235B6F3000FFCAF1 /* NSArray+any.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC77235B6F2F00FFCAF1 /* NSArray+any.m */; };
-		18E1CCCB235B6F3000FFCAF1 /* NSArray+uniq.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC78235B6F2F00FFCAF1 /* NSArray+uniq.m */; };
-		18E1CCCC235B6F3000FFCAF1 /* NSDictionary+fmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC7A235B6F2F00FFCAF1 /* NSDictionary+fmap.m */; };
-		18E1CCCD235B6F3000FFCAF1 /* NSArray+pluck.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC7C235B6F2F00FFCAF1 /* NSArray+pluck.m */; };
-		18E1CCCE235B6F3000FFCAF1 /* NSArray+join.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC7D235B6F2F00FFCAF1 /* NSArray+join.m */; };
-		18E1CCCF235B6F3000FFCAF1 /* YOLO.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC7E235B6F2F00FFCAF1 /* YOLO.m */; };
-		18E1CCD0235B6F3000FFCAF1 /* NSArray+flatten.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC80235B6F2F00FFCAF1 /* NSArray+flatten.m */; };
-		18E1CCD1235B6F3000FFCAF1 /* NSDictionary+extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC83235B6F2F00FFCAF1 /* NSDictionary+extend.m */; };
-		18E1CCD2235B6F3000FFCAF1 /* NSDictionary+map.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC88235B6F2F00FFCAF1 /* NSDictionary+map.m */; };
-		18E1CCD3235B6F3000FFCAF1 /* NSArray+reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC89235B6F2F00FFCAF1 /* NSArray+reverse.m */; };
-		18E1CCD4235B6F3000FFCAF1 /* NSArray+dict.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC8B235B6F2F00FFCAF1 /* NSArray+dict.m */; };
-		18E1CCD5235B6F3000FFCAF1 /* NSArray+select.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC8C235B6F2F00FFCAF1 /* NSArray+select.m */; };
-		18E1CCD6235B6F3000FFCAF1 /* YOLOKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CC8E235B6F2F00FFCAF1 /* YOLOKit.podspec */; };
-		18E1CCD7235B6F3000FFCAF1 /* NSArray+max.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC8F235B6F2F00FFCAF1 /* NSArray+max.m */; };
-		18E1CCD8235B6F3000FFCAF1 /* NSDictionary+pick.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC91235B6F2F00FFCAF1 /* NSDictionary+pick.m */; };
-		18E1CCD9235B6F3000FFCAF1 /* NSArray+sample.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC95235B6F2F00FFCAF1 /* NSArray+sample.m */; };
-		18E1CCDA235B6F3000FFCAF1 /* NSArray+indexOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC9A235B6F2F00FFCAF1 /* NSArray+indexOf.m */; };
-		18E1CCDB235B6F3000FFCAF1 /* NSNumber+upTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC9C235B6F2F00FFCAF1 /* NSNumber+upTo.m */; };
-		18E1CCDC235B6F3000FFCAF1 /* NSArray+flatMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CC9D235B6F2F00FFCAF1 /* NSArray+flatMap.m */; };
-		18E1CCDD235B6F3000FFCAF1 /* NSArray+sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CCA1235B6F2F00FFCAF1 /* NSArray+sort.m */; };
-		18E1CCE3235B6F4100FFCAF1 /* SharePopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CCDF235B6F4100FFCAF1 /* SharePopupViewController.swift */; };
-		18E1CCE4235B6F4100FFCAF1 /* DownloadChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CCE0235B6F4100FFCAF1 /* DownloadChallengeViewController.swift */; };
-		18E1CCE5235B6F4100FFCAF1 /* MIBlurPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CCE2235B6F4100FFCAF1 /* MIBlurPopup.swift */; };
 		18E1CCEE235B6F4D00FFCAF1 /* FAImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CCE7235B6F4D00FFCAF1 /* FAImageLoader.swift */; };
 		18E1CCEF235B6F4D00FFCAF1 /* UIImage+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CCE8235B6F4D00FFCAF1 /* UIImage+Additions.swift */; };
 		18E1CCF0235B6F4D00FFCAF1 /* FADetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CCE9235B6F4D00FFCAF1 /* FADetailVC.swift */; };
@@ -137,24 +41,11 @@
 		18E1CD12235B704E00FFCAF1 /* CellLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD05235B704D00FFCAF1 /* CellLabel.m */; };
 		18E1CD13235B704E00FFCAF1 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD06235B704D00FFCAF1 /* Cell.m */; };
 		18E1CD14235B704E00FFCAF1 /* SubPackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD07235B704D00FFCAF1 /* SubPackTableViewCell.swift */; };
-		18E1CD44235B70C500FFCAF1 /* BaseSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD29235B70C400FFCAF1 /* BaseSwiftViewController.swift */; };
-		18E1CD45235B70C500FFCAF1 /* CoinsCongratsScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD2A235B70C400FFCAF1 /* CoinsCongratsScreenViewController.swift */; };
 		18E1CD46235B70C500FFCAF1 /* PicCrossLevelSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD2B235B70C400FFCAF1 /* PicCrossLevelSelectViewController.swift */; };
-		18E1CD47235B70C500FFCAF1 /* RotatoStageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD2D235B70C400FFCAF1 /* RotatoStageViewController.swift */; };
-		18E1CD48235B70C500FFCAF1 /* FlippoFlipLevelSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD2E235B70C400FFCAF1 /* FlippoFlipLevelSelectViewController.swift */; };
-		18E1CD49235B70C500FFCAF1 /* RotatoLevelSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD2F235B70C400FFCAF1 /* RotatoLevelSelectViewController.swift */; };
-		18E1CD4B235B70C500FFCAF1 /* CoinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD31235B70C400FFCAF1 /* CoinsViewController.swift */; };
-		18E1CD4C235B70C500FFCAF1 /* FlippoFlipStageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD32235B70C500FFCAF1 /* FlippoFlipStageViewController.swift */; };
-		18E1CD4D235B70C500FFCAF1 /* BuyCoinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD33235B70C500FFCAF1 /* BuyCoinsViewController.swift */; };
-		18E1CD4E235B70C500FFCAF1 /* BuyVIPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD34235B70C500FFCAF1 /* BuyVIPViewController.swift */; };
 		18E1CD4F235B70C500FFCAF1 /* PicCrossStageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD35235B70C500FFCAF1 /* PicCrossStageViewController.swift */; };
 		18E1CD50235B70C500FFCAF1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD36235B70C500FFCAF1 /* HomeViewController.swift */; };
 		18E1CD54235B70DC00FFCAF1 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD52235B70DC00FFCAF1 /* AudioPlayer.swift */; };
 		18E1CD55235B70DC00FFCAF1 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD53235B70DC00FFCAF1 /* UIImage+Gif.swift */; };
-		18E1CD5D235B70F600FFCAF1 /* FlippoFlippViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD56235B70F500FFCAF1 /* FlippoFlippViewController.m */; };
-		18E1CD5E235B70F600FFCAF1 /* RotatoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD57235B70F500FFCAF1 /* RotatoViewController.m */; };
-		18E1CD5F235B70F600FFCAF1 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD58235B70F500FFCAF1 /* BaseViewController.m */; };
-		18E1CD60235B70F600FFCAF1 /* DailyPuzzleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD5C235B70F600FFCAF1 /* DailyPuzzleViewController.swift */; };
 		18E1CD63235B70FC00FFCAF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD62235B70FB00FFCAF1 /* ViewController.m */; };
 		18E1CD6A235B714100FFCAF1 /* PhotoGame.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CD67235B714000FFCAF1 /* PhotoGame.storyboard */; };
 		18E1CD6B235B714100FFCAF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CD68235B714000FFCAF1 /* Main.storyboard */; };
@@ -167,18 +58,6 @@
 		18E1CD7C235B748700FFCAF1 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD7B235B748700FFCAF1 /* UIImage+Extension.m */; };
 		18E1CD84235B754400FFCAF1 /* CCLocalMaximum.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD80235B754400FFCAF1 /* CCLocalMaximum.m */; };
 		18E1CD85235B754400FFCAF1 /* CCColorCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD81235B754400FFCAF1 /* CCColorCube.m */; };
-		18E1CD99235B772F00FFCAF1 /* NumbersMatchLevels.json in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CD88235B772F00FFCAF1 /* NumbersMatchLevels.json */; };
-		18E1CD9A235B772F00FFCAF1 /* UndoRedoAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD89235B772F00FFCAF1 /* UndoRedoAction.m */; };
-		18E1CD9B235B772F00FFCAF1 /* NumbersMatchStageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD8D235B772F00FFCAF1 /* NumbersMatchStageViewController.swift */; };
-		18E1CD9C235B772F00FFCAF1 /* PatternMatchLevels.json in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CD8F235B772F00FFCAF1 /* PatternMatchLevels.json */; };
-		18E1CD9D235B772F00FFCAF1 /* PatternMatchCellLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD90235B772F00FFCAF1 /* PatternMatchCellLabel.m */; };
-		18E1CD9E235B772F00FFCAF1 /* PatternMatchLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD91235B772F00FFCAF1 /* PatternMatchLevel.m */; };
-		18E1CD9F235B772F00FFCAF1 /* PatternMatchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD92235B772F00FFCAF1 /* PatternMatchCell.m */; };
-		18E1CDA0235B772F00FFCAF1 /* PatternMatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD94235B772F00FFCAF1 /* PatternMatchViewController.m */; };
-		18E1CDA1235B772F00FFCAF1 /* PatternMatchTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD95235B772F00FFCAF1 /* PatternMatchTile.m */; };
-		18E1CDA2235B772F00FFCAF1 /* NumbersMatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD96235B772F00FFCAF1 /* NumbersMatchViewController.m */; };
-		18E1CDA3235B772F00FFCAF1 /* NumbersMatchLevelSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD98235B772F00FFCAF1 /* NumbersMatchLevelSelectViewController.swift */; };
-		18E1CDA5235B782F00FFCAF1 /* PurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CDA4235B782F00FFCAF1 /* PurchaseViewController.swift */; };
 		18E1CDA7235B789C00FFCAF1 /* AZDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CDA6235B789C00FFCAF1 /* AZDialogViewController.swift */; };
 		18E1CDB6235B78BE00FFCAF1 /* CHIBasePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CDAB235B78BE00FFCAF1 /* CHIBasePageControl.swift */; };
 		18E1CDB7235B78BE00FFCAF1 /* CHIPageControllable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CDAC235B78BE00FFCAF1 /* CHIPageControllable.swift */; };
@@ -191,44 +70,33 @@
 		18E1CDBE235B78BE00FFCAF1 /* CHIPageControlPaprika.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CDB3235B78BE00FFCAF1 /* CHIPageControlPaprika.swift */; };
 		18E1CDBF235B78BE00FFCAF1 /* CHIPageControlFresno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CDB4235B78BE00FFCAF1 /* CHIPageControlFresno.swift */; };
 		18E1CDC0235B78BE00FFCAF1 /* CHIPageControlAji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CDB5235B78BE00FFCAF1 /* CHIPageControlAji.swift */; };
-		18E1CDC2235B794000FFCAF1 /* PatterenMatchLevelSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CDC1235B794000FFCAF1 /* PatterenMatchLevelSelectViewController.swift */; };
 		18E1CDC4235B79A200FFCAF1 /* TTSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CDC3235B79A100FFCAF1 /* TTSegmentedControl.swift */; };
-		18E1CDC6235B79CF00FFCAF1 /* ContactusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CDC5235B79CF00FFCAF1 /* ContactusViewController.swift */; };
-		18E1CDCA235B7EEF00FFCAF1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CDC9235B7EEF00FFCAF1 /* GoogleService-Info.plist */; };
 		18E1CDCC235B803900FFCAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CDCB235B803900FFCAF1 /* Assets.xcassets */; };
 		18FAE5402388678E00D83C2C /* BoxoB.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FAE53F2388678E00D83C2C /* BoxoB.xcassets */; };
+		510F7B0C260CCCB800CD7825 /* PicCross.gif in Resources */ = {isa = PBXBuildFile; fileRef = 510F7B0B260CCCB800CD7825 /* PicCross.gif */; };
 		513F0CFF26088B7A00ADD20F /* ElMessiri.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 513F0CFE26088B7A00ADD20F /* ElMessiri.ttf */; };
 		513F0D0126088DF500ADD20F /* SuperstarM54-Zq6K.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 513F0D0026088DF500ADD20F /* SuperstarM54-Zq6K.ttf */; };
-		513F0D032608D51E00ADD20F /* PicCross.gif in Resources */ = {isa = PBXBuildFile; fileRef = 513F0D022608D51E00ADD20F /* PicCross.gif */; };
-		513F0D052609DADE00ADD20F /* MatchNumbers.gif in Resources */ = {isa = PBXBuildFile; fileRef = 513F0D042609DADE00ADD20F /* MatchNumbers.gif */; };
-		513F0D072609DAF800ADD20F /* PatterenMatch.gif in Resources */ = {isa = PBXBuildFile; fileRef = 513F0D062609DAF800ADD20F /* PatterenMatch.gif */; };
 		519F27362604CBCF00A7B6C8 /* Pods_BoXoB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8610ACD0FCD50D87328CFED8 /* Pods_BoXoB.framework */; };
+		51C2DE91260DD3F000AD8F1D /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 51C2DE90260DD3F000AD8F1D /* FacebookCore */; };
+		51C2DE93260DD3F000AD8F1D /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = 51C2DE92260DD3F000AD8F1D /* FacebookShare */; };
+		51C2DEAD260DD5F300AD8F1D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C2DEAC260DD5F300AD8F1D /* BaseViewController.m */; };
+		51C2DEB3260DD6C500AD8F1D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C2DEB2260DD6C500AD8F1D /* MBProgressHUD.m */; };
+		51C2DEB7260DD76700AD8F1D /* BaseSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C2DEB6260DD76600AD8F1D /* BaseSwiftViewController.swift */; };
+		51C2DEBD260DD8E900AD8F1D /* NSArray+transpose.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C2DEBB260DD8E900AD8F1D /* NSArray+transpose.m */; };
+		51C2DEC1260DD91000AD8F1D /* NSArray+each.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C2DEBF260DD91000AD8F1D /* NSArray+each.m */; };
+		51C2DEC5260DD93100AD8F1D /* NSArray+select.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C2DEC3260DD93100AD8F1D /* NSArray+select.m */; };
+		51C2DEC9260DD93C00AD8F1D /* NSArray+max.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C2DEC7260DD93C00AD8F1D /* NSArray+max.m */; };
+		51C2DECC260DD95900AD8F1D /* YOLO.ph in Resources */ = {isa = PBXBuildFile; fileRef = 51C2DECB260DD95900AD8F1D /* YOLO.ph */; };
+		51C2DED4260DDAE900AD8F1D /* YOLO.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C2DED3260DDAE900AD8F1D /* YOLO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04E7C4E52600CEC500B3C0A0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		180885B5241908F80032C953 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		182517562377316B00A76E12 /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
-		18659DFD2387D36400D82062 /* PatterenMatchStageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatterenMatchStageViewController.swift; sourceTree = "<group>"; };
-		189EBB1C239EC52C0022A1B0 /* SantaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SantaViewController.h; sourceTree = "<group>"; };
-		189EBB1D239EC52F0022A1B0 /* SantaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SantaViewController.m; sourceTree = "<group>"; };
-		189EBB1F239EC74A0022A1B0 /* SantaLevelSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SantaLevelSelectViewController.swift; sourceTree = "<group>"; };
-		189EBB20239EC74E0022A1B0 /* SantaStageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SantaStageViewController.swift; sourceTree = "<group>"; };
 		189EBB25239ED99A0022A1B0 /* santa.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = santa.gif; sourceTree = "<group>"; };
-		18A487F924588F7F006F8AF3 /* FSCameraView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSCameraView.xib; sourceTree = "<group>"; };
 		18A487FA24588F7F006F8AF3 /* FSImageCropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSImageCropView.swift; sourceTree = "<group>"; };
 		18A487FB24588F80006F8AF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18A487FC24588F80006F8AF3 /* FSVideoCameraView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSVideoCameraView.xib; sourceTree = "<group>"; };
 		18A487FE24588F80006F8AF3 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		18A487FF24588F80006F8AF3 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
-		18A4880024588F80006F8AF3 /* FSAlbumViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSAlbumViewCell.swift; sourceTree = "<group>"; };
-		18A4880124588F80006F8AF3 /* FSVideoCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSVideoCameraView.swift; sourceTree = "<group>"; };
-		18A4880224588F80006F8AF3 /* FSAlbumView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSAlbumView.xib; sourceTree = "<group>"; };
-		18A4880324588F80006F8AF3 /* FSAlbumViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSAlbumViewCell.xib; sourceTree = "<group>"; };
-		18A4880424588F80006F8AF3 /* FusumaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FusumaViewController.swift; sourceTree = "<group>"; };
-		18A4880524588F80006F8AF3 /* FusumaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FusumaViewController.xib; sourceTree = "<group>"; };
-		18A4880624588F80006F8AF3 /* FSCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSCameraView.swift; sourceTree = "<group>"; };
-		18A4880724588F80006F8AF3 /* FSAlbumView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSAlbumView.swift; sourceTree = "<group>"; };
 		18AA52862381BFDE0013F363 /* source.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = source.gif; sourceTree = "<group>"; };
 		18AE2C29235C610E00D169E9 /* ChooseGameTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseGameTypeViewController.swift; sourceTree = "<group>"; };
 		18E1CBEC235B6E7000FFCAF1 /* Riddles & Brain Teasers Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Riddles & Brain Teasers Puzzle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -241,135 +109,6 @@
 		18E1CC0C235B6EDD00FFCAF1 /* BoXoB-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BoXoB-Bridging-Header.h"; sourceTree = "<group>"; };
 		18E1CC11235B6EEA00FFCAF1 /* UINavigationController+Fade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Fade.h"; sourceTree = "<group>"; };
 		18E1CC12235B6EEA00FFCAF1 /* UINavigationController+Fade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Fade.m"; sourceTree = "<group>"; };
-		18E1CC15235B6EF900FFCAF1 /* SKProduct+LocalizedPrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKProduct+LocalizedPrice.swift"; sourceTree = "<group>"; };
-		18E1CC16235B6EF900FFCAF1 /* InAppProductQueryRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppProductQueryRequest.swift; sourceTree = "<group>"; };
-		18E1CC17235B6EF900FFCAF1 /* InAppReceiptRefreshRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppReceiptRefreshRequest.swift; sourceTree = "<group>"; };
-		18E1CC18235B6EF900FFCAF1 /* SwiftyStoreKit+Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftyStoreKit+Types.swift"; sourceTree = "<group>"; };
-		18E1CC19235B6EF900FFCAF1 /* InAppReceipt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppReceipt.swift; sourceTree = "<group>"; };
-		18E1CC1A235B6EF900FFCAF1 /* SwiftyStoreKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyStoreKit.swift; sourceTree = "<group>"; };
-		18E1CC1B235B6EF900FFCAF1 /* ProductsInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsInfoController.swift; sourceTree = "<group>"; };
-		18E1CC1C235B6EF900FFCAF1 /* CompleteTransactionsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteTransactionsController.swift; sourceTree = "<group>"; };
-		18E1CC1D235B6EF900FFCAF1 /* NetworkActivityIndicatorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkActivityIndicatorManager.swift; sourceTree = "<group>"; };
-		18E1CC1E235B6EF900FFCAF1 /* PaymentsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentsController.swift; sourceTree = "<group>"; };
-		18E1CC1F235B6EF900FFCAF1 /* OS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OS.swift; sourceTree = "<group>"; };
-		18E1CC20235B6EF900FFCAF1 /* RestorePurchasesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestorePurchasesController.swift; sourceTree = "<group>"; };
-		18E1CC21235B6EF900FFCAF1 /* PaymentQueueController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentQueueController.swift; sourceTree = "<group>"; };
-		18E1CC22235B6EF900FFCAF1 /* InAppReceiptVerificator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppReceiptVerificator.swift; sourceTree = "<group>"; };
-		18E1CC23235B6EF900FFCAF1 /* AppleReceiptValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleReceiptValidator.swift; sourceTree = "<group>"; };
-		18E1CC34235B6F0800FFCAF1 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		18E1CC35235B6F0800FFCAF1 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		18E1CC38235B6F2F00FFCAF1 /* NSArray+any.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+any.h"; sourceTree = "<group>"; };
-		18E1CC39235B6F2F00FFCAF1 /* NSArray+uniq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+uniq.h"; sourceTree = "<group>"; };
-		18E1CC3A235B6F2F00FFCAF1 /* NSArray+without.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+without.m"; sourceTree = "<group>"; };
-		18E1CC3B235B6F2F00FFCAF1 /* NSArray+reduce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+reduce.h"; sourceTree = "<group>"; };
-		18E1CC3C235B6F2F00FFCAF1 /* NSArray+snip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+snip.m"; sourceTree = "<group>"; };
-		18E1CC3D235B6F2F00FFCAF1 /* NSArray+none.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+none.m"; sourceTree = "<group>"; };
-		18E1CC3E235B6F2F00FFCAF1 /* NSArray+rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+rotate.h"; sourceTree = "<group>"; };
-		18E1CC3F235B6F2F00FFCAF1 /* NSSet+each.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+each.h"; sourceTree = "<group>"; };
-		18E1CC40235B6F2F00FFCAF1 /* NSArray+fmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+fmap.h"; sourceTree = "<group>"; };
-		18E1CC41235B6F2F00FFCAF1 /* NSArray+dict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+dict.h"; sourceTree = "<group>"; };
-		18E1CC42235B6F2F00FFCAF1 /* NSArray+reverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+reverse.h"; sourceTree = "<group>"; };
-		18E1CC43235B6F2F00FFCAF1 /* NSArray+inject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+inject.m"; sourceTree = "<group>"; };
-		18E1CC44235B6F2F00FFCAF1 /* NSDictionary+map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+map.h"; sourceTree = "<group>"; };
-		18E1CC45235B6F2F00FFCAF1 /* NSMutableArray+unshift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+unshift.m"; sourceTree = "<group>"; };
-		18E1CC46235B6F2F00FFCAF1 /* NSArray+groupBy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+groupBy.m"; sourceTree = "<group>"; };
-		18E1CC47235B6F2F00FFCAF1 /* NSMutableArray+push.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+push.m"; sourceTree = "<group>"; };
-		18E1CC48235B6F2F00FFCAF1 /* NSArray+slice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+slice.m"; sourceTree = "<group>"; };
-		18E1CC49235B6F2F00FFCAF1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		18E1CC4A235B6F2F00FFCAF1 /* NSDictionary+extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+extend.h"; sourceTree = "<group>"; };
-		18E1CC4B235B6F2F00FFCAF1 /* NSArray+all.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+all.m"; sourceTree = "<group>"; };
-		18E1CC4C235B6F2F00FFCAF1 /* NSArray+partition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+partition.m"; sourceTree = "<group>"; };
-		18E1CC4D235B6F2F00FFCAF1 /* NSArray+flatten.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+flatten.h"; sourceTree = "<group>"; };
-		18E1CC4E235B6F2F00FFCAF1 /* YOLO.ph */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YOLO.ph; sourceTree = "<group>"; };
-		18E1CC4F235B6F2F00FFCAF1 /* NSArray+skip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+skip.m"; sourceTree = "<group>"; };
-		18E1CC50235B6F2F00FFCAF1 /* NSArray+join.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+join.h"; sourceTree = "<group>"; };
-		18E1CC51235B6F2F00FFCAF1 /* YOLO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOLO.h; sourceTree = "<group>"; };
-		18E1CC52235B6F2F00FFCAF1 /* NSArray+has.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+has.m"; sourceTree = "<group>"; };
-		18E1CC53235B6F2F00FFCAF1 /* NSArray+pluck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+pluck.h"; sourceTree = "<group>"; };
-		18E1CC54235B6F2F00FFCAF1 /* NSDictionary+array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+array.m"; sourceTree = "<group>"; };
-		18E1CC55235B6F2F00FFCAF1 /* NSDictionary+fmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+fmap.h"; sourceTree = "<group>"; };
-		18E1CC56235B6F2F00FFCAF1 /* NSArray+sample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+sample.h"; sourceTree = "<group>"; };
-		18E1CC57235B6F2F00FFCAF1 /* NSArray+concat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+concat.m"; sourceTree = "<group>"; };
-		18E1CC58235B6F2F00FFCAF1 /* NSArray+shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+shuffle.m"; sourceTree = "<group>"; };
-		18E1CC59235B6F2F00FFCAF1 /* NSArray+map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+map.m"; sourceTree = "<group>"; };
-		18E1CC5A235B6F2F00FFCAF1 /* NSString+split.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+split.m"; sourceTree = "<group>"; };
-		18E1CC5B235B6F2F00FFCAF1 /* NSDictionary+pick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+pick.h"; sourceTree = "<group>"; };
-		18E1CC5C235B6F2F00FFCAF1 /* NSArray+chunk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+chunk.m"; sourceTree = "<group>"; };
-		18E1CC5D235B6F2F00FFCAF1 /* NSArray+max.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+max.h"; sourceTree = "<group>"; };
-		18E1CC5E235B6F2F00FFCAF1 /* NSMutableArray+pop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+pop.m"; sourceTree = "<group>"; };
-		18E1CC5F235B6F2F00FFCAF1 /* NSArray+select.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+select.h"; sourceTree = "<group>"; };
-		18E1CC60235B6F2F00FFCAF1 /* tests */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = tests; sourceTree = "<group>"; };
-		18E1CC61235B6F2F00FFCAF1 /* NSArray+find.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+find.m"; sourceTree = "<group>"; };
-		18E1CC62235B6F2F00FFCAF1 /* NSArray+last.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+last.m"; sourceTree = "<group>"; };
-		18E1CC63235B6F2F00FFCAF1 /* NSArray+first.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+first.m"; sourceTree = "<group>"; };
-		18E1CC64235B6F2F00FFCAF1 /* NSArray+sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+sort.h"; sourceTree = "<group>"; };
-		18E1CC65235B6F2F00FFCAF1 /* NSDictionary+get.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+get.m"; sourceTree = "<group>"; };
-		18E1CC66235B6F2F00FFCAF1 /* NSArray+min.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+min.m"; sourceTree = "<group>"; };
-		18E1CC67235B6F2F00FFCAF1 /* NSMutableArray+shift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+shift.m"; sourceTree = "<group>"; };
-		18E1CC68235B6F2F00FFCAF1 /* NSArray+flatMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+flatMap.h"; sourceTree = "<group>"; };
-		18E1CC69235B6F2F00FFCAF1 /* NSNumber+upTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+upTo.h"; sourceTree = "<group>"; };
-		18E1CC6A235B6F2F00FFCAF1 /* NSSet+fmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+fmap.m"; sourceTree = "<group>"; };
-		18E1CC6B235B6F2F00FFCAF1 /* NSArray+indexOf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+indexOf.h"; sourceTree = "<group>"; };
-		18E1CC6C235B6F2F00FFCAF1 /* NSArray+each.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+each.m"; sourceTree = "<group>"; };
-		18E1CC6D235B6F2F00FFCAF1 /* NSArray+pmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+pmap.m"; sourceTree = "<group>"; };
-		18E1CC6E235B6F2F00FFCAF1 /* NSArray+transpose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+transpose.m"; sourceTree = "<group>"; };
-		18E1CC6F235B6F2F00FFCAF1 /* NSArray+fmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+fmap.m"; sourceTree = "<group>"; };
-		18E1CC70235B6F2F00FFCAF1 /* NSSet+each.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+each.m"; sourceTree = "<group>"; };
-		18E1CC71235B6F2F00FFCAF1 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
-		18E1CC72235B6F2F00FFCAF1 /* NSArray+none.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+none.h"; sourceTree = "<group>"; };
-		18E1CC73235B6F2F00FFCAF1 /* NSArray+rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+rotate.m"; sourceTree = "<group>"; };
-		18E1CC74235B6F2F00FFCAF1 /* NSArray+snip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+snip.h"; sourceTree = "<group>"; };
-		18E1CC75235B6F2F00FFCAF1 /* NSArray+reduce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+reduce.m"; sourceTree = "<group>"; };
-		18E1CC76235B6F2F00FFCAF1 /* NSArray+without.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+without.h"; sourceTree = "<group>"; };
-		18E1CC77235B6F2F00FFCAF1 /* NSArray+any.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+any.m"; sourceTree = "<group>"; };
-		18E1CC78235B6F2F00FFCAF1 /* NSArray+uniq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+uniq.m"; sourceTree = "<group>"; };
-		18E1CC79235B6F2F00FFCAF1 /* NSDictionary+array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+array.h"; sourceTree = "<group>"; };
-		18E1CC7A235B6F2F00FFCAF1 /* NSDictionary+fmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+fmap.m"; sourceTree = "<group>"; };
-		18E1CC7B235B6F2F00FFCAF1 /* NSArray+has.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+has.h"; sourceTree = "<group>"; };
-		18E1CC7C235B6F2F00FFCAF1 /* NSArray+pluck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+pluck.m"; sourceTree = "<group>"; };
-		18E1CC7D235B6F2F00FFCAF1 /* NSArray+join.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+join.m"; sourceTree = "<group>"; };
-		18E1CC7E235B6F2F00FFCAF1 /* YOLO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOLO.m; sourceTree = "<group>"; };
-		18E1CC7F235B6F2F00FFCAF1 /* NSArray+skip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+skip.h"; sourceTree = "<group>"; };
-		18E1CC80235B6F2F00FFCAF1 /* NSArray+flatten.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+flatten.m"; sourceTree = "<group>"; };
-		18E1CC81235B6F2F00FFCAF1 /* NSArray+partition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+partition.h"; sourceTree = "<group>"; };
-		18E1CC82235B6F2F00FFCAF1 /* NSArray+all.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+all.h"; sourceTree = "<group>"; };
-		18E1CC83235B6F2F00FFCAF1 /* NSDictionary+extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+extend.m"; sourceTree = "<group>"; };
-		18E1CC84235B6F2F00FFCAF1 /* NSArray+slice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+slice.h"; sourceTree = "<group>"; };
-		18E1CC85235B6F2F00FFCAF1 /* NSArray+groupBy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+groupBy.h"; sourceTree = "<group>"; };
-		18E1CC86235B6F2F00FFCAF1 /* NSMutableArray+push.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+push.h"; sourceTree = "<group>"; };
-		18E1CC87235B6F2F00FFCAF1 /* NSMutableArray+unshift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+unshift.h"; sourceTree = "<group>"; };
-		18E1CC88235B6F2F00FFCAF1 /* NSDictionary+map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+map.m"; sourceTree = "<group>"; };
-		18E1CC89235B6F2F00FFCAF1 /* NSArray+reverse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+reverse.m"; sourceTree = "<group>"; };
-		18E1CC8A235B6F2F00FFCAF1 /* NSArray+inject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+inject.h"; sourceTree = "<group>"; };
-		18E1CC8B235B6F2F00FFCAF1 /* NSArray+dict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+dict.m"; sourceTree = "<group>"; };
-		18E1CC8C235B6F2F00FFCAF1 /* NSArray+select.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+select.m"; sourceTree = "<group>"; };
-		18E1CC8D235B6F2F00FFCAF1 /* NSMutableArray+pop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+pop.h"; sourceTree = "<group>"; };
-		18E1CC8E235B6F2F00FFCAF1 /* YOLOKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YOLOKit.podspec; sourceTree = "<group>"; };
-		18E1CC8F235B6F2F00FFCAF1 /* NSArray+max.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+max.m"; sourceTree = "<group>"; };
-		18E1CC90235B6F2F00FFCAF1 /* NSArray+chunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+chunk.h"; sourceTree = "<group>"; };
-		18E1CC91235B6F2F00FFCAF1 /* NSDictionary+pick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+pick.m"; sourceTree = "<group>"; };
-		18E1CC92235B6F2F00FFCAF1 /* NSString+split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+split.h"; sourceTree = "<group>"; };
-		18E1CC93235B6F2F00FFCAF1 /* NSArray+map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+map.h"; sourceTree = "<group>"; };
-		18E1CC94235B6F2F00FFCAF1 /* NSArray+concat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+concat.h"; sourceTree = "<group>"; };
-		18E1CC95235B6F2F00FFCAF1 /* NSArray+sample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+sample.m"; sourceTree = "<group>"; };
-		18E1CC96235B6F2F00FFCAF1 /* NSArray+shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+shuffle.h"; sourceTree = "<group>"; };
-		18E1CC97235B6F2F00FFCAF1 /* NSArray+transpose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+transpose.h"; sourceTree = "<group>"; };
-		18E1CC98235B6F2F00FFCAF1 /* NSArray+each.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+each.h"; sourceTree = "<group>"; };
-		18E1CC99235B6F2F00FFCAF1 /* NSArray+pmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+pmap.h"; sourceTree = "<group>"; };
-		18E1CC9A235B6F2F00FFCAF1 /* NSArray+indexOf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+indexOf.m"; sourceTree = "<group>"; };
-		18E1CC9B235B6F2F00FFCAF1 /* NSSet+fmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+fmap.h"; sourceTree = "<group>"; };
-		18E1CC9C235B6F2F00FFCAF1 /* NSNumber+upTo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+upTo.m"; sourceTree = "<group>"; };
-		18E1CC9D235B6F2F00FFCAF1 /* NSArray+flatMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+flatMap.m"; sourceTree = "<group>"; };
-		18E1CC9E235B6F2F00FFCAF1 /* NSMutableArray+shift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+shift.h"; sourceTree = "<group>"; };
-		18E1CC9F235B6F2F00FFCAF1 /* NSArray+min.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+min.h"; sourceTree = "<group>"; };
-		18E1CCA0235B6F2F00FFCAF1 /* NSDictionary+get.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+get.h"; sourceTree = "<group>"; };
-		18E1CCA1235B6F2F00FFCAF1 /* NSArray+sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+sort.m"; sourceTree = "<group>"; };
-		18E1CCA2235B6F2F00FFCAF1 /* NSArray+last.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+last.h"; sourceTree = "<group>"; };
-		18E1CCA3235B6F2F00FFCAF1 /* NSArray+first.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+first.h"; sourceTree = "<group>"; };
-		18E1CCA4235B6F2F00FFCAF1 /* NSArray+find.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+find.h"; sourceTree = "<group>"; };
-		18E1CCDF235B6F4100FFCAF1 /* SharePopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharePopupViewController.swift; sourceTree = "<group>"; };
-		18E1CCE0235B6F4100FFCAF1 /* DownloadChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadChallengeViewController.swift; sourceTree = "<group>"; };
-		18E1CCE2235B6F4100FFCAF1 /* MIBlurPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIBlurPopup.swift; sourceTree = "<group>"; };
 		18E1CCE7235B6F4D00FFCAF1 /* FAImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAImageLoader.swift; sourceTree = "<group>"; };
 		18E1CCE8235B6F4D00FFCAF1 /* UIImage+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Additions.swift"; sourceTree = "<group>"; };
 		18E1CCE9235B6F4D00FFCAF1 /* FADetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FADetailVC.swift; sourceTree = "<group>"; };
@@ -395,27 +134,11 @@
 		18E1CD05235B704D00FFCAF1 /* CellLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellLabel.m; sourceTree = "<group>"; };
 		18E1CD06235B704D00FFCAF1 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
 		18E1CD07235B704D00FFCAF1 /* SubPackTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubPackTableViewCell.swift; sourceTree = "<group>"; };
-		18E1CD29235B70C400FFCAF1 /* BaseSwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseSwiftViewController.swift; sourceTree = "<group>"; };
-		18E1CD2A235B70C400FFCAF1 /* CoinsCongratsScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinsCongratsScreenViewController.swift; sourceTree = "<group>"; };
 		18E1CD2B235B70C400FFCAF1 /* PicCrossLevelSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicCrossLevelSelectViewController.swift; sourceTree = "<group>"; };
-		18E1CD2D235B70C400FFCAF1 /* RotatoStageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatoStageViewController.swift; sourceTree = "<group>"; };
-		18E1CD2E235B70C400FFCAF1 /* FlippoFlipLevelSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlippoFlipLevelSelectViewController.swift; sourceTree = "<group>"; };
-		18E1CD2F235B70C400FFCAF1 /* RotatoLevelSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatoLevelSelectViewController.swift; sourceTree = "<group>"; };
-		18E1CD31235B70C400FFCAF1 /* CoinsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinsViewController.swift; sourceTree = "<group>"; };
-		18E1CD32235B70C500FFCAF1 /* FlippoFlipStageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlippoFlipStageViewController.swift; sourceTree = "<group>"; };
-		18E1CD33235B70C500FFCAF1 /* BuyCoinsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyCoinsViewController.swift; sourceTree = "<group>"; };
-		18E1CD34235B70C500FFCAF1 /* BuyVIPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyVIPViewController.swift; sourceTree = "<group>"; };
 		18E1CD35235B70C500FFCAF1 /* PicCrossStageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicCrossStageViewController.swift; sourceTree = "<group>"; };
 		18E1CD36235B70C500FFCAF1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		18E1CD52235B70DC00FFCAF1 /* AudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		18E1CD53235B70DC00FFCAF1 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
-		18E1CD56235B70F500FFCAF1 /* FlippoFlippViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlippoFlippViewController.m; sourceTree = "<group>"; };
-		18E1CD57235B70F500FFCAF1 /* RotatoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotatoViewController.m; sourceTree = "<group>"; };
-		18E1CD58235B70F500FFCAF1 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		18E1CD59235B70F600FFCAF1 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		18E1CD5A235B70F600FFCAF1 /* RotatoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotatoViewController.h; sourceTree = "<group>"; };
-		18E1CD5B235B70F600FFCAF1 /* FlippoFlippViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlippoFlippViewController.h; sourceTree = "<group>"; };
-		18E1CD5C235B70F600FFCAF1 /* DailyPuzzleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyPuzzleViewController.swift; sourceTree = "<group>"; };
 		18E1CD61235B70FB00FFCAF1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18E1CD62235B70FB00FFCAF1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18E1CD67235B714000FFCAF1 /* PhotoGame.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PhotoGame.storyboard; sourceTree = "<group>"; };
@@ -434,25 +157,6 @@
 		18E1CD81235B754400FFCAF1 /* CCColorCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCColorCube.m; sourceTree = "<group>"; };
 		18E1CD82235B754400FFCAF1 /* CCLocalMaximum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLocalMaximum.h; sourceTree = "<group>"; };
 		18E1CD83235B754400FFCAF1 /* ColorCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorCube.h; sourceTree = "<group>"; };
-		18E1CD87235B772F00FFCAF1 /* PatternMatchLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternMatchLevel.h; sourceTree = "<group>"; };
-		18E1CD88235B772F00FFCAF1 /* NumbersMatchLevels.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NumbersMatchLevels.json; sourceTree = "<group>"; };
-		18E1CD89235B772F00FFCAF1 /* UndoRedoAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UndoRedoAction.m; sourceTree = "<group>"; };
-		18E1CD8A235B772F00FFCAF1 /* PatternMatchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternMatchCell.h; sourceTree = "<group>"; };
-		18E1CD8B235B772F00FFCAF1 /* NumbersMatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumbersMatchViewController.h; sourceTree = "<group>"; };
-		18E1CD8C235B772F00FFCAF1 /* PatternMatchTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternMatchTile.h; sourceTree = "<group>"; };
-		18E1CD8D235B772F00FFCAF1 /* NumbersMatchStageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumbersMatchStageViewController.swift; sourceTree = "<group>"; };
-		18E1CD8E235B772F00FFCAF1 /* PatternMatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternMatchViewController.h; sourceTree = "<group>"; };
-		18E1CD8F235B772F00FFCAF1 /* PatternMatchLevels.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PatternMatchLevels.json; sourceTree = "<group>"; };
-		18E1CD90235B772F00FFCAF1 /* PatternMatchCellLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternMatchCellLabel.m; sourceTree = "<group>"; };
-		18E1CD91235B772F00FFCAF1 /* PatternMatchLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternMatchLevel.m; sourceTree = "<group>"; };
-		18E1CD92235B772F00FFCAF1 /* PatternMatchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternMatchCell.m; sourceTree = "<group>"; };
-		18E1CD93235B772F00FFCAF1 /* UndoRedoAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UndoRedoAction.h; sourceTree = "<group>"; };
-		18E1CD94235B772F00FFCAF1 /* PatternMatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternMatchViewController.m; sourceTree = "<group>"; };
-		18E1CD95235B772F00FFCAF1 /* PatternMatchTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternMatchTile.m; sourceTree = "<group>"; };
-		18E1CD96235B772F00FFCAF1 /* NumbersMatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumbersMatchViewController.m; sourceTree = "<group>"; };
-		18E1CD97235B772F00FFCAF1 /* PatternMatchCellLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternMatchCellLabel.h; sourceTree = "<group>"; };
-		18E1CD98235B772F00FFCAF1 /* NumbersMatchLevelSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumbersMatchLevelSelectViewController.swift; sourceTree = "<group>"; };
-		18E1CDA4235B782F00FFCAF1 /* PurchaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseViewController.swift; sourceTree = "<group>"; };
 		18E1CDA6235B789C00FFCAF1 /* AZDialogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZDialogViewController.swift; sourceTree = "<group>"; };
 		18E1CDA9235B78BE00FFCAF1 /* CHIPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHIPageControl.h; sourceTree = "<group>"; };
 		18E1CDAB235B78BE00FFCAF1 /* CHIBasePageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIBasePageControl.swift; sourceTree = "<group>"; };
@@ -466,19 +170,29 @@
 		18E1CDB3235B78BE00FFCAF1 /* CHIPageControlPaprika.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIPageControlPaprika.swift; sourceTree = "<group>"; };
 		18E1CDB4235B78BE00FFCAF1 /* CHIPageControlFresno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIPageControlFresno.swift; sourceTree = "<group>"; };
 		18E1CDB5235B78BE00FFCAF1 /* CHIPageControlAji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIPageControlAji.swift; sourceTree = "<group>"; };
-		18E1CDC1235B794000FFCAF1 /* PatterenMatchLevelSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatterenMatchLevelSelectViewController.swift; sourceTree = "<group>"; };
 		18E1CDC3235B79A100FFCAF1 /* TTSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTSegmentedControl.swift; sourceTree = "<group>"; };
-		18E1CDC5235B79CF00FFCAF1 /* ContactusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactusViewController.swift; sourceTree = "<group>"; };
-		18E1CDC9235B7EEF00FFCAF1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		18E1CDCB235B803900FFCAF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18FAE53F2388678E00D83C2C /* BoxoB.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BoxoB.xcassets; sourceTree = "<group>"; };
 		436A4F43B65C9D34648BC142 /* Pods-BoXoB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoXoB.release.xcconfig"; path = "Target Support Files/Pods-BoXoB/Pods-BoXoB.release.xcconfig"; sourceTree = "<group>"; };
+		510F7B0B260CCCB800CD7825 /* PicCross.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PicCross.gif; sourceTree = "<group>"; };
 		512DC96E2602691D0038C12B /* Riddles & Brain Teasers Puzzle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Riddles & Brain Teasers Puzzle.entitlements"; sourceTree = "<group>"; };
 		513F0CFE26088B7A00ADD20F /* ElMessiri.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ElMessiri.ttf; sourceTree = "<group>"; };
 		513F0D0026088DF500ADD20F /* SuperstarM54-Zq6K.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SuperstarM54-Zq6K.ttf"; sourceTree = "<group>"; };
-		513F0D022608D51E00ADD20F /* PicCross.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PicCross.gif; sourceTree = "<group>"; };
-		513F0D042609DADE00ADD20F /* MatchNumbers.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = MatchNumbers.gif; sourceTree = "<group>"; };
-		513F0D062609DAF800ADD20F /* PatterenMatch.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PatterenMatch.gif; sourceTree = "<group>"; };
+		51C2DEAC260DD5F300AD8F1D /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		51C2DEB1260DD6C400AD8F1D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		51C2DEB2260DD6C500AD8F1D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		51C2DEB6260DD76600AD8F1D /* BaseSwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseSwiftViewController.swift; sourceTree = "<group>"; };
+		51C2DEBB260DD8E900AD8F1D /* NSArray+transpose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+transpose.m"; sourceTree = "<group>"; };
+		51C2DEBC260DD8E900AD8F1D /* NSArray+transpose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+transpose.h"; sourceTree = "<group>"; };
+		51C2DEBF260DD91000AD8F1D /* NSArray+each.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+each.m"; sourceTree = "<group>"; };
+		51C2DEC0260DD91000AD8F1D /* NSArray+each.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+each.h"; sourceTree = "<group>"; };
+		51C2DEC3260DD93100AD8F1D /* NSArray+select.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+select.m"; sourceTree = "<group>"; };
+		51C2DEC4260DD93100AD8F1D /* NSArray+select.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+select.h"; sourceTree = "<group>"; };
+		51C2DEC7260DD93C00AD8F1D /* NSArray+max.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+max.m"; sourceTree = "<group>"; };
+		51C2DEC8260DD93C00AD8F1D /* NSArray+max.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+max.h"; sourceTree = "<group>"; };
+		51C2DECB260DD95900AD8F1D /* YOLO.ph */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YOLO.ph; sourceTree = "<group>"; };
+		51C2DED0260DDA3300AD8F1D /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		51C2DED3260DDAE900AD8F1D /* YOLO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOLO.m; sourceTree = "<group>"; };
 		8610ACD0FCD50D87328CFED8 /* Pods_BoXoB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoXoB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D192BA825ECEC8C3FC8BC1 /* Pods-BoXoB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoXoB.debug.xcconfig"; path = "Target Support Files/Pods-BoXoB/Pods-BoXoB.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -489,29 +203,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				519F27362604CBCF00A7B6C8 /* Pods_BoXoB.framework in Frameworks */,
-				041ABFAE25FFA9CA00CDD81A /* FacebookLogin in Frameworks */,
-				041ABFA825FFA9CA00CDD81A /* FacebookShare in Frameworks */,
-				041ABFAA25FFA9CA00CDD81A /* FacebookCore in Frameworks */,
-				041ABFAC25FFA9CA00CDD81A /* FacebookGamingServices in Frameworks */,
+				51C2DE91260DD3F000AD8F1D /* FacebookCore in Frameworks */,
+				51C2DE93260DD3F000AD8F1D /* FacebookShare in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04E7C4E42600CE9400B3C0A0 /* NetworkManager */ = {
-			isa = PBXGroup;
-			children = (
-				04E7C4E52600CEC500B3C0A0 /* NetworkManager.swift */,
-			);
-			path = NetworkManager;
-			sourceTree = "<group>";
-		};
 		180885B7241912F30032C953 /* Folder for reskin */ = {
 			isa = PBXGroup;
 			children = (
-				182517562377316B00A76E12 /* backgroundMusic.mp3 */,
-				18E1CDC9235B7EEF00FFCAF1 /* GoogleService-Info.plist */,
 				18E1CDCB235B803900FFCAF1 /* Assets.xcassets */,
 				18FAE53F2388678E00D83C2C /* BoxoB.xcassets */,
 				180885B5241908F80032C953 /* Constant.swift */,
@@ -520,56 +222,12 @@
 			path = "Folder for reskin";
 			sourceTree = "<group>";
 		};
-		18659DFB2387D32300D82062 /* Patterno */ = {
-			isa = PBXGroup;
-			children = (
-				18E1CD8A235B772F00FFCAF1 /* PatternMatchCell.h */,
-				18E1CD92235B772F00FFCAF1 /* PatternMatchCell.m */,
-				18E1CD8C235B772F00FFCAF1 /* PatternMatchTile.h */,
-				18E1CD95235B772F00FFCAF1 /* PatternMatchTile.m */,
-				18E1CD97235B772F00FFCAF1 /* PatternMatchCellLabel.h */,
-				18E1CD90235B772F00FFCAF1 /* PatternMatchCellLabel.m */,
-				18E1CD87235B772F00FFCAF1 /* PatternMatchLevel.h */,
-				18E1CD91235B772F00FFCAF1 /* PatternMatchLevel.m */,
-				18E1CD8F235B772F00FFCAF1 /* PatternMatchLevels.json */,
-				18E1CD8E235B772F00FFCAF1 /* PatternMatchViewController.h */,
-				18E1CD94235B772F00FFCAF1 /* PatternMatchViewController.m */,
-				18659DFD2387D36400D82062 /* PatterenMatchStageViewController.swift */,
-				18E1CDC1235B794000FFCAF1 /* PatterenMatchLevelSelectViewController.swift */,
-			);
-			path = Patterno;
-			sourceTree = "<group>";
-		};
-		18659DFC2387D33A00D82062 /* Arrango */ = {
-			isa = PBXGroup;
-			children = (
-				18E1CD88235B772F00FFCAF1 /* NumbersMatchLevels.json */,
-				18E1CD89235B772F00FFCAF1 /* UndoRedoAction.m */,
-				18E1CD98235B772F00FFCAF1 /* NumbersMatchLevelSelectViewController.swift */,
-				18E1CD8D235B772F00FFCAF1 /* NumbersMatchStageViewController.swift */,
-				18E1CD93235B772F00FFCAF1 /* UndoRedoAction.h */,
-				18E1CD8B235B772F00FFCAF1 /* NumbersMatchViewController.h */,
-				18E1CD96235B772F00FFCAF1 /* NumbersMatchViewController.m */,
-			);
-			path = Arrango;
-			sourceTree = "<group>";
-		};
 		18A487F824588F7F006F8AF3 /* Fusuma */ = {
 			isa = PBXGroup;
 			children = (
-				18A487F924588F7F006F8AF3 /* FSCameraView.xib */,
 				18A487FA24588F7F006F8AF3 /* FSImageCropView.swift */,
 				18A487FB24588F80006F8AF3 /* Assets.xcassets */,
-				18A487FC24588F80006F8AF3 /* FSVideoCameraView.xib */,
 				18A487FD24588F80006F8AF3 /* Extensions */,
-				18A4880024588F80006F8AF3 /* FSAlbumViewCell.swift */,
-				18A4880124588F80006F8AF3 /* FSVideoCameraView.swift */,
-				18A4880224588F80006F8AF3 /* FSAlbumView.xib */,
-				18A4880324588F80006F8AF3 /* FSAlbumViewCell.xib */,
-				18A4880424588F80006F8AF3 /* FusumaViewController.swift */,
-				18A4880524588F80006F8AF3 /* FusumaViewController.xib */,
-				18A4880624588F80006F8AF3 /* FSCameraView.swift */,
-				18A4880724588F80006F8AF3 /* FSAlbumView.swift */,
 			);
 			path = Fusuma;
 			sourceTree = "<group>";
@@ -605,7 +263,6 @@
 			isa = PBXGroup;
 			children = (
 				512DC96E2602691D0038C12B /* Riddles & Brain Teasers Puzzle.entitlements */,
-				04E7C4E42600CE9400B3C0A0 /* NetworkManager */,
 				18A487F824588F7F006F8AF3 /* Fusuma */,
 				180885B7241912F30032C953 /* Folder for reskin */,
 				18E1CD7D235B754400FFCAF1 /* ColorCube */,
@@ -614,11 +271,8 @@
 				18E1CD51235B70CE00FFCAF1 /* Helpers */,
 				18E1CCF5235B704D00FFCAF1 /* UI */,
 				18E1CCE6235B6F4D00FFCAF1 /* FAImageCropper */,
-				18E1CCDE235B6F4100FFCAF1 /* Share */,
-				18E1CC37235B6F2F00FFCAF1 /* YOLOKit-master */,
-				18E1CC33235B6F0800FFCAF1 /* Classes */,
-				18E1CC14235B6EF900FFCAF1 /* SwiftyStoreKit */,
 				18E1CC10235B6EEA00FFCAF1 /* Navigation */,
+				51C2DEB0260DD6BB00AD8F1D /* Classes */,
 				18E1CD15235B706100FFCAF1 /* Controller */,
 				18E1CBEF235B6E7000FFCAF1 /* AppDelegate.swift */,
 				18E1CD68235B714000FFCAF1 /* Main.storyboard */,
@@ -634,13 +288,11 @@
 		18E1CC01235B6ECD00FFCAF1 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				513F0D022608D51E00ADD20F /* PicCross.gif */,
 				189EBB25239ED99A0022A1B0 /* santa.gif */,
 				18AA52862381BFDE0013F363 /* source.gif */,
 				18E1CC02235B6ECD00FFCAF1 /* Rotato.gif */,
+				510F7B0B260CCCB800CD7825 /* PicCross.gif */,
 				18E1CC03235B6ECD00FFCAF1 /* PicCross1.gif */,
-				513F0D042609DADE00ADD20F /* MatchNumbers.gif */,
-				513F0D062609DAF800ADD20F /* PatterenMatch.gif */,
 				18E1CC06235B6ECD00FFCAF1 /* Flippo.gif */,
 			);
 			path = Demo;
@@ -653,171 +305,6 @@
 				18E1CC12235B6EEA00FFCAF1 /* UINavigationController+Fade.m */,
 			);
 			path = Navigation;
-			sourceTree = "<group>";
-		};
-		18E1CC14235B6EF900FFCAF1 /* SwiftyStoreKit */ = {
-			isa = PBXGroup;
-			children = (
-				18E1CC15235B6EF900FFCAF1 /* SKProduct+LocalizedPrice.swift */,
-				18E1CC16235B6EF900FFCAF1 /* InAppProductQueryRequest.swift */,
-				18E1CC17235B6EF900FFCAF1 /* InAppReceiptRefreshRequest.swift */,
-				18E1CC18235B6EF900FFCAF1 /* SwiftyStoreKit+Types.swift */,
-				18E1CC19235B6EF900FFCAF1 /* InAppReceipt.swift */,
-				18E1CC1A235B6EF900FFCAF1 /* SwiftyStoreKit.swift */,
-				18E1CC1B235B6EF900FFCAF1 /* ProductsInfoController.swift */,
-				18E1CC1C235B6EF900FFCAF1 /* CompleteTransactionsController.swift */,
-				18E1CC1D235B6EF900FFCAF1 /* NetworkActivityIndicatorManager.swift */,
-				18E1CC1E235B6EF900FFCAF1 /* PaymentsController.swift */,
-				18E1CC1F235B6EF900FFCAF1 /* OS.swift */,
-				18E1CC20235B6EF900FFCAF1 /* RestorePurchasesController.swift */,
-				18E1CC21235B6EF900FFCAF1 /* PaymentQueueController.swift */,
-				18E1CC22235B6EF900FFCAF1 /* InAppReceiptVerificator.swift */,
-				18E1CC23235B6EF900FFCAF1 /* AppleReceiptValidator.swift */,
-			);
-			path = SwiftyStoreKit;
-			sourceTree = "<group>";
-		};
-		18E1CC33235B6F0800FFCAF1 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				18E1CC34235B6F0800FFCAF1 /* MBProgressHUD.m */,
-				18E1CC35235B6F0800FFCAF1 /* MBProgressHUD.h */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		18E1CC37235B6F2F00FFCAF1 /* YOLOKit-master */ = {
-			isa = PBXGroup;
-			children = (
-				18E1CC38235B6F2F00FFCAF1 /* NSArray+any.h */,
-				18E1CC39235B6F2F00FFCAF1 /* NSArray+uniq.h */,
-				18E1CC3A235B6F2F00FFCAF1 /* NSArray+without.m */,
-				18E1CC3B235B6F2F00FFCAF1 /* NSArray+reduce.h */,
-				18E1CC3C235B6F2F00FFCAF1 /* NSArray+snip.m */,
-				18E1CC3D235B6F2F00FFCAF1 /* NSArray+none.m */,
-				18E1CC3E235B6F2F00FFCAF1 /* NSArray+rotate.h */,
-				18E1CC3F235B6F2F00FFCAF1 /* NSSet+each.h */,
-				18E1CC40235B6F2F00FFCAF1 /* NSArray+fmap.h */,
-				18E1CC41235B6F2F00FFCAF1 /* NSArray+dict.h */,
-				18E1CC42235B6F2F00FFCAF1 /* NSArray+reverse.h */,
-				18E1CC43235B6F2F00FFCAF1 /* NSArray+inject.m */,
-				18E1CC44235B6F2F00FFCAF1 /* NSDictionary+map.h */,
-				18E1CC45235B6F2F00FFCAF1 /* NSMutableArray+unshift.m */,
-				18E1CC46235B6F2F00FFCAF1 /* NSArray+groupBy.m */,
-				18E1CC47235B6F2F00FFCAF1 /* NSMutableArray+push.m */,
-				18E1CC48235B6F2F00FFCAF1 /* NSArray+slice.m */,
-				18E1CC49235B6F2F00FFCAF1 /* LICENSE */,
-				18E1CC4A235B6F2F00FFCAF1 /* NSDictionary+extend.h */,
-				18E1CC4B235B6F2F00FFCAF1 /* NSArray+all.m */,
-				18E1CC4C235B6F2F00FFCAF1 /* NSArray+partition.m */,
-				18E1CC4D235B6F2F00FFCAF1 /* NSArray+flatten.h */,
-				18E1CC4E235B6F2F00FFCAF1 /* YOLO.ph */,
-				18E1CC4F235B6F2F00FFCAF1 /* NSArray+skip.m */,
-				18E1CC50235B6F2F00FFCAF1 /* NSArray+join.h */,
-				18E1CC51235B6F2F00FFCAF1 /* YOLO.h */,
-				18E1CC52235B6F2F00FFCAF1 /* NSArray+has.m */,
-				18E1CC53235B6F2F00FFCAF1 /* NSArray+pluck.h */,
-				18E1CC54235B6F2F00FFCAF1 /* NSDictionary+array.m */,
-				18E1CC55235B6F2F00FFCAF1 /* NSDictionary+fmap.h */,
-				18E1CC56235B6F2F00FFCAF1 /* NSArray+sample.h */,
-				18E1CC57235B6F2F00FFCAF1 /* NSArray+concat.m */,
-				18E1CC58235B6F2F00FFCAF1 /* NSArray+shuffle.m */,
-				18E1CC59235B6F2F00FFCAF1 /* NSArray+map.m */,
-				18E1CC5A235B6F2F00FFCAF1 /* NSString+split.m */,
-				18E1CC5B235B6F2F00FFCAF1 /* NSDictionary+pick.h */,
-				18E1CC5C235B6F2F00FFCAF1 /* NSArray+chunk.m */,
-				18E1CC5D235B6F2F00FFCAF1 /* NSArray+max.h */,
-				18E1CC5E235B6F2F00FFCAF1 /* NSMutableArray+pop.m */,
-				18E1CC5F235B6F2F00FFCAF1 /* NSArray+select.h */,
-				18E1CC60235B6F2F00FFCAF1 /* tests */,
-				18E1CC61235B6F2F00FFCAF1 /* NSArray+find.m */,
-				18E1CC62235B6F2F00FFCAF1 /* NSArray+last.m */,
-				18E1CC63235B6F2F00FFCAF1 /* NSArray+first.m */,
-				18E1CC64235B6F2F00FFCAF1 /* NSArray+sort.h */,
-				18E1CC65235B6F2F00FFCAF1 /* NSDictionary+get.m */,
-				18E1CC66235B6F2F00FFCAF1 /* NSArray+min.m */,
-				18E1CC67235B6F2F00FFCAF1 /* NSMutableArray+shift.m */,
-				18E1CC68235B6F2F00FFCAF1 /* NSArray+flatMap.h */,
-				18E1CC69235B6F2F00FFCAF1 /* NSNumber+upTo.h */,
-				18E1CC6A235B6F2F00FFCAF1 /* NSSet+fmap.m */,
-				18E1CC6B235B6F2F00FFCAF1 /* NSArray+indexOf.h */,
-				18E1CC6C235B6F2F00FFCAF1 /* NSArray+each.m */,
-				18E1CC6D235B6F2F00FFCAF1 /* NSArray+pmap.m */,
-				18E1CC6E235B6F2F00FFCAF1 /* NSArray+transpose.m */,
-				18E1CC6F235B6F2F00FFCAF1 /* NSArray+fmap.m */,
-				18E1CC70235B6F2F00FFCAF1 /* NSSet+each.m */,
-				18E1CC71235B6F2F00FFCAF1 /* README.markdown */,
-				18E1CC72235B6F2F00FFCAF1 /* NSArray+none.h */,
-				18E1CC73235B6F2F00FFCAF1 /* NSArray+rotate.m */,
-				18E1CC74235B6F2F00FFCAF1 /* NSArray+snip.h */,
-				18E1CC75235B6F2F00FFCAF1 /* NSArray+reduce.m */,
-				18E1CC76235B6F2F00FFCAF1 /* NSArray+without.h */,
-				18E1CC77235B6F2F00FFCAF1 /* NSArray+any.m */,
-				18E1CC78235B6F2F00FFCAF1 /* NSArray+uniq.m */,
-				18E1CC79235B6F2F00FFCAF1 /* NSDictionary+array.h */,
-				18E1CC7A235B6F2F00FFCAF1 /* NSDictionary+fmap.m */,
-				18E1CC7B235B6F2F00FFCAF1 /* NSArray+has.h */,
-				18E1CC7C235B6F2F00FFCAF1 /* NSArray+pluck.m */,
-				18E1CC7D235B6F2F00FFCAF1 /* NSArray+join.m */,
-				18E1CC7E235B6F2F00FFCAF1 /* YOLO.m */,
-				18E1CC7F235B6F2F00FFCAF1 /* NSArray+skip.h */,
-				18E1CC80235B6F2F00FFCAF1 /* NSArray+flatten.m */,
-				18E1CC81235B6F2F00FFCAF1 /* NSArray+partition.h */,
-				18E1CC82235B6F2F00FFCAF1 /* NSArray+all.h */,
-				18E1CC83235B6F2F00FFCAF1 /* NSDictionary+extend.m */,
-				18E1CC84235B6F2F00FFCAF1 /* NSArray+slice.h */,
-				18E1CC85235B6F2F00FFCAF1 /* NSArray+groupBy.h */,
-				18E1CC86235B6F2F00FFCAF1 /* NSMutableArray+push.h */,
-				18E1CC87235B6F2F00FFCAF1 /* NSMutableArray+unshift.h */,
-				18E1CC88235B6F2F00FFCAF1 /* NSDictionary+map.m */,
-				18E1CC89235B6F2F00FFCAF1 /* NSArray+reverse.m */,
-				18E1CC8A235B6F2F00FFCAF1 /* NSArray+inject.h */,
-				18E1CC8B235B6F2F00FFCAF1 /* NSArray+dict.m */,
-				18E1CC8C235B6F2F00FFCAF1 /* NSArray+select.m */,
-				18E1CC8D235B6F2F00FFCAF1 /* NSMutableArray+pop.h */,
-				18E1CC8E235B6F2F00FFCAF1 /* YOLOKit.podspec */,
-				18E1CC8F235B6F2F00FFCAF1 /* NSArray+max.m */,
-				18E1CC90235B6F2F00FFCAF1 /* NSArray+chunk.h */,
-				18E1CC91235B6F2F00FFCAF1 /* NSDictionary+pick.m */,
-				18E1CC92235B6F2F00FFCAF1 /* NSString+split.h */,
-				18E1CC93235B6F2F00FFCAF1 /* NSArray+map.h */,
-				18E1CC94235B6F2F00FFCAF1 /* NSArray+concat.h */,
-				18E1CC95235B6F2F00FFCAF1 /* NSArray+sample.m */,
-				18E1CC96235B6F2F00FFCAF1 /* NSArray+shuffle.h */,
-				18E1CC97235B6F2F00FFCAF1 /* NSArray+transpose.h */,
-				18E1CC98235B6F2F00FFCAF1 /* NSArray+each.h */,
-				18E1CC99235B6F2F00FFCAF1 /* NSArray+pmap.h */,
-				18E1CC9A235B6F2F00FFCAF1 /* NSArray+indexOf.m */,
-				18E1CC9B235B6F2F00FFCAF1 /* NSSet+fmap.h */,
-				18E1CC9C235B6F2F00FFCAF1 /* NSNumber+upTo.m */,
-				18E1CC9D235B6F2F00FFCAF1 /* NSArray+flatMap.m */,
-				18E1CC9E235B6F2F00FFCAF1 /* NSMutableArray+shift.h */,
-				18E1CC9F235B6F2F00FFCAF1 /* NSArray+min.h */,
-				18E1CCA0235B6F2F00FFCAF1 /* NSDictionary+get.h */,
-				18E1CCA1235B6F2F00FFCAF1 /* NSArray+sort.m */,
-				18E1CCA2235B6F2F00FFCAF1 /* NSArray+last.h */,
-				18E1CCA3235B6F2F00FFCAF1 /* NSArray+first.h */,
-				18E1CCA4235B6F2F00FFCAF1 /* NSArray+find.h */,
-			);
-			path = "YOLOKit-master";
-			sourceTree = "<group>";
-		};
-		18E1CCDE235B6F4100FFCAF1 /* Share */ = {
-			isa = PBXGroup;
-			children = (
-				18E1CCDF235B6F4100FFCAF1 /* SharePopupViewController.swift */,
-				18E1CCE0235B6F4100FFCAF1 /* DownloadChallengeViewController.swift */,
-				18E1CCE1235B6F4100FFCAF1 /* MIBlurPopup */,
-			);
-			path = Share;
-			sourceTree = "<group>";
-		};
-		18E1CCE1235B6F4100FFCAF1 /* MIBlurPopup */ = {
-			isa = PBXGroup;
-			children = (
-				18E1CCE2235B6F4100FFCAF1 /* MIBlurPopup.swift */,
-			);
-			path = MIBlurPopup;
 			sourceTree = "<group>";
 		};
 		18E1CCE6235B6F4D00FFCAF1 /* FAImageCropper */ = {
@@ -863,34 +350,15 @@
 			isa = PBXGroup;
 			children = (
 				18E1CD86235B772F00FFCAF1 /* PatternMatch */,
-				18E1CDC5235B79CF00FFCAF1 /* ContactusViewController.swift */,
-				18E1CDA4235B782F00FFCAF1 /* PurchaseViewController.swift */,
+				51C2DEB6260DD76600AD8F1D /* BaseSwiftViewController.swift */,
+				51C2DED0260DDA3300AD8F1D /* BaseViewController.h */,
+				51C2DEAC260DD5F300AD8F1D /* BaseViewController.m */,
 				18E1CD61235B70FB00FFCAF1 /* ViewController.h */,
 				18E1CD62235B70FB00FFCAF1 /* ViewController.m */,
-				18E1CD59235B70F600FFCAF1 /* BaseViewController.h */,
-				18E1CD58235B70F500FFCAF1 /* BaseViewController.m */,
-				18E1CD5C235B70F600FFCAF1 /* DailyPuzzleViewController.swift */,
-				18E1CD5B235B70F600FFCAF1 /* FlippoFlippViewController.h */,
-				18E1CD56235B70F500FFCAF1 /* FlippoFlippViewController.m */,
-				18E1CD5A235B70F600FFCAF1 /* RotatoViewController.h */,
-				18E1CD57235B70F500FFCAF1 /* RotatoViewController.m */,
-				18E1CD29235B70C400FFCAF1 /* BaseSwiftViewController.swift */,
-				18E1CD33235B70C500FFCAF1 /* BuyCoinsViewController.swift */,
-				18E1CD34235B70C500FFCAF1 /* BuyVIPViewController.swift */,
-				18E1CD2A235B70C400FFCAF1 /* CoinsCongratsScreenViewController.swift */,
-				18E1CD31235B70C400FFCAF1 /* CoinsViewController.swift */,
-				18E1CD2E235B70C400FFCAF1 /* FlippoFlipLevelSelectViewController.swift */,
-				18E1CD32235B70C500FFCAF1 /* FlippoFlipStageViewController.swift */,
 				18E1CD36235B70C500FFCAF1 /* HomeViewController.swift */,
 				18E1CD2B235B70C400FFCAF1 /* PicCrossLevelSelectViewController.swift */,
 				18E1CD35235B70C500FFCAF1 /* PicCrossStageViewController.swift */,
-				18E1CD2F235B70C400FFCAF1 /* RotatoLevelSelectViewController.swift */,
-				18E1CD2D235B70C400FFCAF1 /* RotatoStageViewController.swift */,
 				18AE2C29235C610E00D169E9 /* ChooseGameTypeViewController.swift */,
-				189EBB1F239EC74A0022A1B0 /* SantaLevelSelectViewController.swift */,
-				189EBB20239EC74E0022A1B0 /* SantaStageViewController.swift */,
-				189EBB1C239EC52C0022A1B0 /* SantaViewController.h */,
-				189EBB1D239EC52F0022A1B0 /* SantaViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -962,8 +430,6 @@
 		18E1CD86235B772F00FFCAF1 /* PatternMatch */ = {
 			isa = PBXGroup;
 			children = (
-				18659DFC2387D33A00D82062 /* Arrango */,
-				18659DFB2387D32300D82062 /* Patterno */,
 			);
 			path = PatternMatch;
 			sourceTree = "<group>";
@@ -993,6 +459,25 @@
 				18E1CDAD235B78BE00FFCAF1 /* CHILayer.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		51C2DEB0260DD6BB00AD8F1D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				51C2DEC8260DD93C00AD8F1D /* NSArray+max.h */,
+				51C2DEC7260DD93C00AD8F1D /* NSArray+max.m */,
+				51C2DEB1260DD6C400AD8F1D /* MBProgressHUD.h */,
+				51C2DEB2260DD6C500AD8F1D /* MBProgressHUD.m */,
+				51C2DEBC260DD8E900AD8F1D /* NSArray+transpose.h */,
+				51C2DEBB260DD8E900AD8F1D /* NSArray+transpose.m */,
+				51C2DEC0260DD91000AD8F1D /* NSArray+each.h */,
+				51C2DEBF260DD91000AD8F1D /* NSArray+each.m */,
+				51C2DEC4260DD93100AD8F1D /* NSArray+select.h */,
+				51C2DEC3260DD93100AD8F1D /* NSArray+select.m */,
+				51C2DECB260DD95900AD8F1D /* YOLO.ph */,
+				51C2DED3260DDAE900AD8F1D /* YOLO.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		6DBE0AFE045A796DE116AB06 /* Pods */ = {
@@ -1031,10 +516,8 @@
 			);
 			name = BoXoB;
 			packageProductDependencies = (
-				041ABFA725FFA9CA00CDD81A /* FacebookShare */,
-				041ABFA925FFA9CA00CDD81A /* FacebookCore */,
-				041ABFAB25FFA9CA00CDD81A /* FacebookGamingServices */,
-				041ABFAD25FFA9CA00CDD81A /* FacebookLogin */,
+				51C2DE90260DD3F000AD8F1D /* FacebookCore */,
+				51C2DE92260DD3F000AD8F1D /* FacebookShare */,
 			);
 			productName = BoXoB;
 			productReference = 18E1CBEC235B6E7000FFCAF1 /* Riddles & Brain Teasers Puzzle.app */;
@@ -1083,7 +566,7 @@
 			);
 			mainGroup = 18E1CBE3235B6E7000FFCAF1;
 			packageReferences = (
-				041ABFA625FFA9C900CDD81A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				51C2DE8F260DD3F000AD8F1D /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 			);
 			productRefGroup = 18E1CBED235B6E7000FFCAF1 /* Products */;
 			projectDirPath = "";
@@ -1099,42 +582,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E1CD9C235B772F00FFCAF1 /* PatternMatchLevels.json in Resources */,
-				513F0D032608D51E00ADD20F /* PicCross.gif in Resources */,
-				18A4881024588F80006F8AF3 /* FSAlbumView.xib in Resources */,
 				18E1CD6A235B714100FFCAF1 /* PhotoGame.storyboard in Resources */,
-				18E1CCBA235B6F3000FFCAF1 /* tests in Resources */,
+				51C2DECC260DD95900AD8F1D /* YOLO.ph in Resources */,
 				18E1CD0E235B704E00FFCAF1 /* PuzzleCollectionViewCell.xib in Resources */,
-				18A4880B24588F80006F8AF3 /* FSVideoCameraView.xib in Resources */,
-				18A4881124588F80006F8AF3 /* FSAlbumViewCell.xib in Resources */,
 				18A4880A24588F80006F8AF3 /* Assets.xcassets in Resources */,
 				18E1CD6B235B714100FFCAF1 /* Main.storyboard in Resources */,
 				513F0D0126088DF500ADD20F /* SuperstarM54-Zq6K.ttf in Resources */,
 				18E1CC0B235B6ECD00FFCAF1 /* Flippo.gif in Resources */,
-				18E1CCC7235B6F3000FFCAF1 /* README.markdown in Resources */,
-				18A4881324588F80006F8AF3 /* FusumaViewController.xib in Resources */,
-				18A4880824588F80006F8AF3 /* FSCameraView.xib in Resources */,
 				18E1CCF1235B6F4D00FFCAF1 /* FAGridView.xib in Resources */,
-				18E1CD99235B772F00FFCAF1 /* NumbersMatchLevels.json in Resources */,
+				510F7B0C260CCCB800CD7825 /* PicCross.gif in Resources */,
 				18E1CC08235B6ECD00FFCAF1 /* PicCross1.gif in Resources */,
 				18E1CBFA235B6E7100FFCAF1 /* LaunchScreen.storyboard in Resources */,
 				18E1CD0C235B704E00FFCAF1 /* SubPackTableViewCell1.xib in Resources */,
-				182517572377316B00A76E12 /* backgroundMusic.mp3 in Resources */,
 				18E1CD11235B704E00FFCAF1 /* SubPackTableViewCell.xib in Resources */,
 				189EBB26239ED99C0022A1B0 /* santa.gif in Resources */,
 				18E1CD0B235B704E00FFCAF1 /* PackTableViewCell.xib in Resources */,
-				18E1CDCA235B7EEF00FFCAF1 /* GoogleService-Info.plist in Resources */,
 				18AA52872381BFDF0013F363 /* source.gif in Resources */,
-				18E1CCB0235B6F3000FFCAF1 /* YOLO.ph in Resources */,
 				513F0CFF26088B7A00ADD20F /* ElMessiri.ttf in Resources */,
-				18E1CCAD235B6F3000FFCAF1 /* LICENSE in Resources */,
-				513F0D052609DADE00ADD20F /* MatchNumbers.gif in Resources */,
-				513F0D072609DAF800ADD20F /* PatterenMatch.gif in Resources */,
 				18E1CD6C235B714100FFCAF1 /* NumberGame.storyboard in Resources */,
 				18FAE5402388678E00D83C2C /* BoxoB.xcassets in Resources */,
 				18E1CC07235B6ECD00FFCAF1 /* Rotato.gif in Resources */,
 				18E1CDCC235B803900FFCAF1 /* Assets.xcassets in Resources */,
-				18E1CCD6235B6F3000FFCAF1 /* YOLOKit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1187,161 +655,63 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E1CCC5235B6F3000FFCAF1 /* NSArray+fmap.m in Sources */,
 				18E1CCEF235B6F4D00FFCAF1 /* UIImage+Additions.swift in Sources */,
 				18E1CCF2235B6F4D00FFCAF1 /* FAImageCell.swift in Sources */,
-				18E1CCC0235B6F3000FFCAF1 /* NSMutableArray+shift.m in Sources */,
-				18E1CCB5235B6F3000FFCAF1 /* NSArray+shuffle.m in Sources */,
-				18E1CD5F235B70F600FFCAF1 /* BaseViewController.m in Sources */,
-				18E1CCB4235B6F3000FFCAF1 /* NSArray+concat.m in Sources */,
 				18A4880C24588F80006F8AF3 /* UIViewExtensions.swift in Sources */,
 				18E1CD09235B704E00FFCAF1 /* UIView+Extensions.swift in Sources */,
-				18E1CCAE235B6F3000FFCAF1 /* NSArray+all.m in Sources */,
-				18E1CCB1235B6F3000FFCAF1 /* NSArray+skip.m in Sources */,
-				18E1CCC2235B6F3000FFCAF1 /* NSArray+each.m in Sources */,
-				18E1CCBB235B6F3000FFCAF1 /* NSArray+find.m in Sources */,
 				18E1CCF0235B6F4D00FFCAF1 /* FADetailVC.swift in Sources */,
-				18E1CD4C235B70C500FFCAF1 /* FlippoFlipStageViewController.swift in Sources */,
-				18E1CCC6235B6F3000FFCAF1 /* NSSet+each.m in Sources */,
 				18E1CD7C235B748700FFCAF1 /* UIImage+Extension.m in Sources */,
 				18E1CD08235B704E00FFCAF1 /* Level.m in Sources */,
-				18E1CCD2235B6F3000FFCAF1 /* NSDictionary+map.m in Sources */,
-				18E1CCD0235B6F3000FFCAF1 /* NSArray+flatten.m in Sources */,
-				18E1CCE5235B6F4100FFCAF1 /* MIBlurPopup.swift in Sources */,
 				18E1CD12235B704E00FFCAF1 /* CellLabel.m in Sources */,
-				18E1CCCA235B6F3000FFCAF1 /* NSArray+any.m in Sources */,
 				18E1CD79235B73EE00FFCAF1 /* UIView+Glow.m in Sources */,
-				18E1CCDC235B6F3000FFCAF1 /* NSArray+flatMap.m in Sources */,
-				18E1CCD7235B6F3000FFCAF1 /* NSArray+max.m in Sources */,
-				18E1CC2D235B6EF900FFCAF1 /* PaymentsController.swift in Sources */,
 				18E1CD54235B70DC00FFCAF1 /* AudioPlayer.swift in Sources */,
-				18E1CDC2235B794000FFCAF1 /* PatterenMatchLevelSelectViewController.swift in Sources */,
 				18E1CDC4235B79A200FFCAF1 /* TTSegmentedControl.swift in Sources */,
-				18E1CCDD235B6F3000FFCAF1 /* NSArray+sort.m in Sources */,
-				18A4880E24588F80006F8AF3 /* FSAlbumViewCell.swift in Sources */,
-				18E1CCBD235B6F3000FFCAF1 /* NSArray+first.m in Sources */,
-				18E1CDA3235B772F00FFCAF1 /* NumbersMatchLevelSelectViewController.swift in Sources */,
-				18E1CCB6235B6F3000FFCAF1 /* NSArray+map.m in Sources */,
-				18E1CC32235B6EF900FFCAF1 /* AppleReceiptValidator.swift in Sources */,
+				51C2DEC5260DD93100AD8F1D /* NSArray+select.m in Sources */,
+				51C2DEB7260DD76700AD8F1D /* BaseSwiftViewController.swift in Sources */,
 				18E1CDB6235B78BE00FFCAF1 /* CHIBasePageControl.swift in Sources */,
-				18E1CCD3235B6F3000FFCAF1 /* NSArray+reverse.m in Sources */,
-				18E1CC28235B6EF900FFCAF1 /* InAppReceipt.swift in Sources */,
-				18E1CCBE235B6F3000FFCAF1 /* NSDictionary+get.m in Sources */,
-				18E1CDC6235B79CF00FFCAF1 /* ContactusViewController.swift in Sources */,
+				51C2DEAD260DD5F300AD8F1D /* BaseViewController.m in Sources */,
 				18A4880D24588F80006F8AF3 /* UIColorExtensions.swift in Sources */,
 				18E1CDB9235B78BE00FFCAF1 /* CHIPageControlJalapeno.swift in Sources */,
-				18E1CCA6235B6F3000FFCAF1 /* NSArray+snip.m in Sources */,
-				18E1CCCF235B6F3000FFCAF1 /* YOLO.m in Sources */,
-				18E1CCD9235B6F3000FFCAF1 /* NSArray+sample.m in Sources */,
 				18E1CD13235B704E00FFCAF1 /* Cell.m in Sources */,
-				18E1CC2E235B6EF900FFCAF1 /* OS.swift in Sources */,
-				18E1CCBF235B6F3000FFCAF1 /* NSArray+min.m in Sources */,
-				18E1CCCD235B6F3000FFCAF1 /* NSArray+pluck.m in Sources */,
-				18E1CCA7235B6F3000FFCAF1 /* NSArray+none.m in Sources */,
-				18A4881224588F80006F8AF3 /* FusumaViewController.swift in Sources */,
-				18E1CC29235B6EF900FFCAF1 /* SwiftyStoreKit.swift in Sources */,
-				18E1CC2F235B6EF900FFCAF1 /* RestorePurchasesController.swift in Sources */,
-				18E1CDA2235B772F00FFCAF1 /* NumbersMatchViewController.m in Sources */,
 				18E1CDBF235B78BE00FFCAF1 /* CHIPageControlFresno.swift in Sources */,
 				18E1CDBC235B78BE00FFCAF1 /* CHIPageControlChimayo.swift in Sources */,
-				18E1CCD1235B6F3000FFCAF1 /* NSDictionary+extend.m in Sources */,
-				18E1CC36235B6F0900FFCAF1 /* MBProgressHUD.m in Sources */,
-				18E1CCD8235B6F3000FFCAF1 /* NSDictionary+pick.m in Sources */,
-				18E1CCC1235B6F3000FFCAF1 /* NSSet+fmap.m in Sources */,
-				18E1CCBC235B6F3000FFCAF1 /* NSArray+last.m in Sources */,
 				18E1CD0F235B704E00FFCAF1 /* Theme.m in Sources */,
-				18E1CC24235B6EF900FFCAF1 /* SKProduct+LocalizedPrice.swift in Sources */,
-				18E1CCC4235B6F3000FFCAF1 /* NSArray+transpose.m in Sources */,
 				18E1CDB7235B78BE00FFCAF1 /* CHIPageControllable.swift in Sources */,
 				18E1CD10235B704E00FFCAF1 /* PackTableViewCell.swift in Sources */,
 				18E1CD14235B704E00FFCAF1 /* SubPackTableViewCell.swift in Sources */,
 				18E1CCF3235B6F4D00FFCAF1 /* FAScrollView.swift in Sources */,
-				18E1CCCC235B6F3000FFCAF1 /* NSDictionary+fmap.m in Sources */,
-				18E1CCD4235B6F3000FFCAF1 /* NSArray+dict.m in Sources */,
-				18659DFE2387D36400D82062 /* PatterenMatchStageViewController.swift in Sources */,
 				18E1CC13235B6EEA00FFCAF1 /* UINavigationController+Fade.m in Sources */,
 				18E1CD55235B70DC00FFCAF1 /* UIImage+Gif.swift in Sources */,
-				18E1CD9F235B772F00FFCAF1 /* PatternMatchCell.m in Sources */,
 				18E1CD74235B715400FFCAF1 /* Extensions.swift in Sources */,
-				18E1CDA0235B772F00FFCAF1 /* PatternMatchViewController.m in Sources */,
 				18E1CD0A235B704E00FFCAF1 /* CellImage.m in Sources */,
-				18E1CCB8235B6F3000FFCAF1 /* NSArray+chunk.m in Sources */,
-				18E1CD47235B70C500FFCAF1 /* RotatoStageViewController.swift in Sources */,
-				18E1CCC8235B6F3000FFCAF1 /* NSArray+rotate.m in Sources */,
-				18E1CD49235B70C500FFCAF1 /* RotatoLevelSelectViewController.swift in Sources */,
 				180885B6241908F80032C953 /* Constant.swift in Sources */,
-				18E1CD5D235B70F600FFCAF1 /* FlippoFlippViewController.m in Sources */,
-				18E1CD4D235B70C500FFCAF1 /* BuyCoinsViewController.swift in Sources */,
-				189EBB21239EC74E0022A1B0 /* SantaLevelSelectViewController.swift in Sources */,
 				18E1CCEE235B6F4D00FFCAF1 /* FAImageLoader.swift in Sources */,
-				18E1CD9E235B772F00FFCAF1 /* PatternMatchLevel.m in Sources */,
 				18E1CBF0235B6E7000FFCAF1 /* AppDelegate.swift in Sources */,
+				51C2DEBD260DD8E900AD8F1D /* NSArray+transpose.m in Sources */,
 				18E1CD75235B715400FFCAF1 /* ImageGenerator.swift in Sources */,
-				18E1CD45235B70C500FFCAF1 /* CoinsCongratsScreenViewController.swift in Sources */,
-				18E1CD60235B70F600FFCAF1 /* DailyPuzzleViewController.swift in Sources */,
+				51C2DEC9260DD93C00AD8F1D /* NSArray+max.m in Sources */,
 				18E1CDBA235B78BE00FFCAF1 /* CHIPageControlAleppo.swift in Sources */,
-				18E1CD48235B70C500FFCAF1 /* FlippoFlipLevelSelectViewController.swift in Sources */,
 				18E1CD73235B715400FFCAF1 /* Config.swift in Sources */,
-				18E1CC31235B6EF900FFCAF1 /* InAppReceiptVerificator.swift in Sources */,
-				18E1CD44235B70C500FFCAF1 /* BaseSwiftViewController.swift in Sources */,
-				18E1CCB3235B6F3000FFCAF1 /* NSDictionary+array.m in Sources */,
-				18E1CCE4235B6F4100FFCAF1 /* DownloadChallengeViewController.swift in Sources */,
 				18E1CD50235B70C500FFCAF1 /* HomeViewController.swift in Sources */,
-				18E1CCAA235B6F3000FFCAF1 /* NSArray+groupBy.m in Sources */,
-				18A4880F24588F80006F8AF3 /* FSVideoCameraView.swift in Sources */,
 				18E1CDBB235B78BE00FFCAF1 /* CHIPageControlJaloro.swift in Sources */,
 				18E1CD85235B754400FFCAF1 /* CCColorCube.m in Sources */,
-				18E1CCAB235B6F3000FFCAF1 /* NSMutableArray+push.m in Sources */,
-				18E1CC26235B6EF900FFCAF1 /* InAppReceiptRefreshRequest.swift in Sources */,
-				18E1CD5E235B70F600FFCAF1 /* RotatoViewController.m in Sources */,
-				18E1CCDA235B6F3000FFCAF1 /* NSArray+indexOf.m in Sources */,
-				18E1CC2A235B6EF900FFCAF1 /* ProductsInfoController.swift in Sources */,
-				18E1CC2B235B6EF900FFCAF1 /* CompleteTransactionsController.swift in Sources */,
-				18E1CCB2235B6F3000FFCAF1 /* NSArray+has.m in Sources */,
-				18E1CCA9235B6F3000FFCAF1 /* NSMutableArray+unshift.m in Sources */,
-				18E1CC27235B6EF900FFCAF1 /* SwiftyStoreKit+Types.swift in Sources */,
-				18E1CDA1235B772F00FFCAF1 /* PatternMatchTile.m in Sources */,
-				18E1CD9A235B772F00FFCAF1 /* UndoRedoAction.m in Sources */,
-				18A4881524588F80006F8AF3 /* FSAlbumView.swift in Sources */,
 				18E1CD84235B754400FFCAF1 /* CCLocalMaximum.m in Sources */,
 				18E1CD46235B70C500FFCAF1 /* PicCrossLevelSelectViewController.swift in Sources */,
 				18E1CCF4235B6F4D00FFCAF1 /* FAImageCropperVC.swift in Sources */,
-				18E1CDA5235B782F00FFCAF1 /* PurchaseViewController.swift in Sources */,
-				18E1CCCE235B6F3000FFCAF1 /* NSArray+join.m in Sources */,
-				18E1CCAC235B6F3000FFCAF1 /* NSArray+slice.m in Sources */,
-				18E1CD4E235B70C500FFCAF1 /* BuyVIPViewController.swift in Sources */,
-				18E1CD9B235B772F00FFCAF1 /* NumbersMatchStageViewController.swift in Sources */,
 				18AE2C2A235C610E00D169E9 /* ChooseGameTypeViewController.swift in Sources */,
-				189EBB1E239EC52F0022A1B0 /* SantaViewController.m in Sources */,
 				18E1CDB8235B78BE00FFCAF1 /* CHILayer.swift in Sources */,
-				18E1CC25235B6EF900FFCAF1 /* InAppProductQueryRequest.swift in Sources */,
+				51C2DEC1260DD91000AD8F1D /* NSArray+each.m in Sources */,
 				18A4880924588F80006F8AF3 /* FSImageCropView.swift in Sources */,
-				18E1CCB7235B6F3000FFCAF1 /* NSString+split.m in Sources */,
-				189EBB22239EC74E0022A1B0 /* SantaStageViewController.swift in Sources */,
 				18E1CD4F235B70C500FFCAF1 /* PicCrossStageViewController.swift in Sources */,
-				18E1CCD5235B6F3000FFCAF1 /* NSArray+select.m in Sources */,
-				18E1CCA8235B6F3000FFCAF1 /* NSArray+inject.m in Sources */,
-				18E1CC30235B6EF900FFCAF1 /* PaymentQueueController.swift in Sources */,
+				51C2DEB3260DD6C500AD8F1D /* MBProgressHUD.m in Sources */,
 				18E1CDC0235B78BE00FFCAF1 /* CHIPageControlAji.swift in Sources */,
 				18E1CD63235B70FC00FFCAF1 /* ViewController.m in Sources */,
 				18E1CDBE235B78BE00FFCAF1 /* CHIPageControlPaprika.swift in Sources */,
-				18E1CD4B235B70C500FFCAF1 /* CoinsViewController.swift in Sources */,
-				18E1CCE3235B6F4100FFCAF1 /* SharePopupViewController.swift in Sources */,
-				18E1CD9D235B772F00FFCAF1 /* PatternMatchCellLabel.m in Sources */,
-				18E1CC2C235B6EF900FFCAF1 /* NetworkActivityIndicatorManager.swift in Sources */,
-				04E7C4E62600CEC500B3C0A0 /* NetworkManager.swift in Sources */,
 				18E1CDA7235B789C00FFCAF1 /* AZDialogViewController.swift in Sources */,
-				18E1CCAF235B6F3000FFCAF1 /* NSArray+partition.m in Sources */,
 				18E1CDBD235B78BE00FFCAF1 /* CHIPageControlPuya.swift in Sources */,
-				18E1CCDB235B6F3000FFCAF1 /* NSNumber+upTo.m in Sources */,
-				18E1CCC3235B6F3000FFCAF1 /* NSArray+pmap.m in Sources */,
-				18E1CCA5235B6F3000FFCAF1 /* NSArray+without.m in Sources */,
-				18A4881424588F80006F8AF3 /* FSCameraView.swift in Sources */,
 				18E1CD72235B715400FFCAF1 /* Cheers.swift in Sources */,
-				18E1CCC9235B6F3000FFCAF1 /* NSArray+reduce.m in Sources */,
-				18E1CCB9235B6F3000FFCAF1 /* NSMutableArray+pop.m in Sources */,
+				51C2DED4260DDAE900AD8F1D /* YOLO.m in Sources */,
 				18E1CD0D235B704E00FFCAF1 /* PuzzleCollectionViewCell.swift in Sources */,
-				18E1CCCB235B6F3000FFCAF1 /* NSArray+uniq.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1481,6 +851,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "BoXoB/Riddles & Brain Teasers Puzzle.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0.0;
@@ -1492,7 +863,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = ImagePuzzle;
 				PRODUCT_MODULE_NAME = BoXoB;
 				PRODUCT_NAME = "Riddles & Brain Teasers Puzzle";
@@ -1509,6 +880,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "BoXoB/Riddles & Brain Teasers Puzzle.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0.0;
@@ -1520,7 +892,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = ImagePuzzle;
 				PRODUCT_MODULE_NAME = BoXoB;
 				PRODUCT_NAME = "Riddles & Brain Teasers Puzzle";
@@ -1554,7 +926,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		041ABFA625FFA9C900CDD81A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+		51C2DE8F260DD3F000AD8F1D /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
 			requirement = {
@@ -1565,25 +937,15 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		041ABFA725FFA9CA00CDD81A /* FacebookShare */ = {
+		51C2DE90260DD3F000AD8F1D /* FacebookCore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 041ABFA625FFA9C900CDD81A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
-			productName = FacebookShare;
-		};
-		041ABFA925FFA9CA00CDD81A /* FacebookCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 041ABFA625FFA9C900CDD81A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			package = 51C2DE8F260DD3F000AD8F1D /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
 			productName = FacebookCore;
 		};
-		041ABFAB25FFA9CA00CDD81A /* FacebookGamingServices */ = {
+		51C2DE92260DD3F000AD8F1D /* FacebookShare */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 041ABFA625FFA9C900CDD81A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
-			productName = FacebookGamingServices;
-		};
-		041ABFAD25FFA9CA00CDD81A /* FacebookLogin */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 041ABFA625FFA9C900CDD81A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
-			productName = FacebookLogin;
+			package = 51C2DE8F260DD3F000AD8F1D /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookShare;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
