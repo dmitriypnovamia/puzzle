@@ -49,7 +49,6 @@
 		18E1CD63235B70FC00FFCAF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD62235B70FB00FFCAF1 /* ViewController.m */; };
 		18E1CD6A235B714100FFCAF1 /* PhotoGame.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CD67235B714000FFCAF1 /* PhotoGame.storyboard */; };
 		18E1CD6B235B714100FFCAF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CD68235B714000FFCAF1 /* Main.storyboard */; };
-		18E1CD6C235B714100FFCAF1 /* NumberGame.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E1CD69235B714000FFCAF1 /* NumberGame.storyboard */; };
 		18E1CD72235B715400FFCAF1 /* Cheers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD6E235B715400FFCAF1 /* Cheers.swift */; };
 		18E1CD73235B715400FFCAF1 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD6F235B715400FFCAF1 /* Config.swift */; };
 		18E1CD74235B715400FFCAF1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CD70235B715400FFCAF1 /* Extensions.swift */; };
@@ -143,7 +142,6 @@
 		18E1CD62235B70FB00FFCAF1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18E1CD67235B714000FFCAF1 /* PhotoGame.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PhotoGame.storyboard; sourceTree = "<group>"; };
 		18E1CD68235B714000FFCAF1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		18E1CD69235B714000FFCAF1 /* NumberGame.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NumberGame.storyboard; sourceTree = "<group>"; };
 		18E1CD6E235B715400FFCAF1 /* Cheers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cheers.swift; sourceTree = "<group>"; };
 		18E1CD6F235B715400FFCAF1 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		18E1CD70235B715400FFCAF1 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -276,7 +274,6 @@
 				18E1CD15235B706100FFCAF1 /* Controller */,
 				18E1CBEF235B6E7000FFCAF1 /* AppDelegate.swift */,
 				18E1CD68235B714000FFCAF1 /* Main.storyboard */,
-				18E1CD69235B714000FFCAF1 /* NumberGame.storyboard */,
 				18E1CD67235B714000FFCAF1 /* PhotoGame.storyboard */,
 				18E1CBF8235B6E7100FFCAF1 /* LaunchScreen.storyboard */,
 				18E1CBFB235B6E7100FFCAF1 /* Info.plist */,
@@ -349,7 +346,6 @@
 		18E1CD15235B706100FFCAF1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				18E1CD86235B772F00FFCAF1 /* PatternMatch */,
 				51C2DEB6260DD76600AD8F1D /* BaseSwiftViewController.swift */,
 				51C2DED0260DDA3300AD8F1D /* BaseViewController.h */,
 				51C2DEAC260DD5F300AD8F1D /* BaseViewController.m */,
@@ -425,13 +421,6 @@
 				18E1CD82235B754400FFCAF1 /* CCLocalMaximum.h */,
 			);
 			path = Source;
-			sourceTree = "<group>";
-		};
-		18E1CD86235B772F00FFCAF1 /* PatternMatch */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = PatternMatch;
 			sourceTree = "<group>";
 		};
 		18E1CDA8235B78BE00FFCAF1 /* CHIPageControl */ = {
@@ -599,7 +588,6 @@
 				18E1CD0B235B704E00FFCAF1 /* PackTableViewCell.xib in Resources */,
 				18AA52872381BFDF0013F363 /* source.gif in Resources */,
 				513F0CFF26088B7A00ADD20F /* ElMessiri.ttf in Resources */,
-				18E1CD6C235B714100FFCAF1 /* NumberGame.storyboard in Resources */,
 				18FAE5402388678E00D83C2C /* BoxoB.xcassets in Resources */,
 				18E1CC07235B6ECD00FFCAF1 /* Rotato.gif in Resources */,
 				18E1CDCC235B803900FFCAF1 /* Assets.xcassets in Resources */,
